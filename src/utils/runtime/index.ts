@@ -1,1 +1,1 @@
-export { isDevelopment, isProduction, isServer } from "./runtime";
+export { isProduction } from "./runtime";

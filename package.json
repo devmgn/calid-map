@@ -26,24 +26,16 @@
     "generate-api:clean": "rm -rf src/api/openapi && pnpm generate-api"
   },
   "dependencies": {
-    "@hookform/resolvers": "5.2.2",
-    "@radix-ui/react-icons": "1.3.2",
-    "@radix-ui/react-presence": "1.1.5",
-    "@radix-ui/react-slot": "1.2.4",
     "@tanstack/react-query": "5.90.21",
     "@tanstack/react-query-devtools": "5.91.3",
     "@vis.gl/react-google-maps": "1.7.1",
-    "es-toolkit": "1.45.1",
     "hono": "4.12.5",
     "next": "16.1.6",
     "nuqs": "2.8.9",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-error-boundary": "6.1.1",
-    "react-hook-form": "7.71.2",
     "sonner": "2.0.7",
-    "tailwind-merge": "3.5.0",
-    "tailwind-variants": "3.2.2",
     "zod": "4.3.6"
   },
   "devDependencies": {

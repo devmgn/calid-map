@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import { useQuery } from "@tanstack/react-query";
 import { expect } from "storybook/test";
-import { Button } from "../components/Button";
 
 function ErrorToastDemo(props: { skipToast?: boolean }) {
   const { skipToast } = props;
@@ -16,13 +15,14 @@ function ErrorToastDemo(props: { skipToast?: boolean }) {
   });
 
   return (
-    <Button
+    <button
+      type="button"
       onClick={() => {
         void refetch();
       }}
     >
       {skipToast === true ? "エラー発生 (トースト抑制)" : "エラー発生"}
-    </Button>
+    </button>
   );
 }
 
