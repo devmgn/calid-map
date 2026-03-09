@@ -27,6 +27,7 @@
   "dependencies": {
     "@tanstack/react-query": "5.90.21",
     "@tanstack/react-query-devtools": "5.91.3",
+    "@vercel/blob": "2.3.1",
     "@vis.gl/react-google-maps": "1.7.1",
     "hono": "4.12.5",
     "next": "16.1.6",
