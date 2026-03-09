@@ -10,7 +10,6 @@ export default defineConfig({
       exclude: [
         "**/*.d.ts",
         "src/**/*.stories.tsx",
-        "src/{api,mocks}/**",
         "src/{instrumentation-client,instrumentation,middleware}.ts",
         "src/app/**/{default,error,forbidden,global-error,global-not-found,layout,loading,not-found,page,route,template,unauthorized}.{ts,tsx}",
       ],

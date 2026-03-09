@@ -8,19 +8,17 @@ This file provides guidance to AI coding agents when working with code in this r
 
 - **Next.js 16** with App Router, React 19, Turbopack, React Compiler (see `next.config.ts`)
   - Node.js 24, pnpm 10 (exact versions in package.json)
-- **TypeScript** with strict type checking (type-fest for advanced utilities)
+- **TypeScript** with strict type checking
 - **Tailwind CSS v4** with @tailwindcss/postcss
 - **TanStack Query** with queryOptions helper
-- **React Hook Form + Zod v4** with @hookform/resolvers
+- **Zod v4** for runtime validation
 - **Hono** for proxy middleware
-- **UI**: @radix-ui primitives, tailwind-variants, tailwind-merge
-- **Utilities**: es-toolkit (lodash alternative)
 - **nuqs** for URL state management (NuqsAdapter in RootProvider)
 - **OxC** (Oxlint + Oxfmt) for linting and formatting
   - jsPlugins: @tanstack/eslint-plugin-query, eslint-plugin-import, eslint-plugin-react-hooks
   - Suppress comments: `// oxlint-disable-next-line <rule>`
 - **Vitest** with 80% coverage requirement
-- **Storybook 10** with Vitest integration, a11y testing, MSW
+- **Storybook 10** with Vitest integration, a11y testing
 
 ### Directory Structure
 
@@ -28,14 +26,12 @@ This file provides guidance to AI coding agents when working with code in this r
 | ----------------- | ----------------------------------------------------------------------- |
 | `src/app/`        | Next.js App Router (file-based routing)                                 |
 | `src/components/` | Reusable UI components (each in own dir with index.tsx, stories, tests) |
-| `src/api/`        | API layer (openapi/ generated client, queries/ TanStack Query hooks)    |
 | `src/providers/`  | Context providers (RootProvider)                                        |
 | `src/hooks/`      | Custom React hooks                                                      |
 | `src/lib/`        | Library code (proxy/, styles/, Hydrator, WebVitalsReporter)             |
 | `src/utils/`      | Pure utility functions                                                  |
 | `src/config/`     | Application configuration                                               |
 | `src/features/`   | Feature modules (domain-organized)                                      |
-| `src/mocks/`      | MSW mock handlers and fixtures                                          |
 | `src/schemas/`    | Zod schemas (runtime validation, env vars)                              |
 | `src/@types/`     | Type declarations (`.d.ts` — global types, module augmentations)        |
 | `src/types/`      | Shared TypeScript type utilities                                        |
@@ -46,9 +42,8 @@ This file provides guidance to AI coding agents when working with code in this r
 - **No default exports** except Next.js special files (page.tsx, layout.tsx, etc.) and Storybook stories
 - **Function declarations** at top level (no top-level arrow functions, enforced by `fn-style/no-top-level-arrow` Oxlint rule)
 - **Named exports only** for components
-- **TanStack Query** for server state, **React Hook Form + Zod** for form state, **no global client state**
-- **Zod schemas** for runtime validation (forms, env vars)
-- **Generated types** from OpenAPI spec (do not edit `src/api/openapi/` manually)
+- **TanStack Query** for server state, **no global client state**
+- **Zod schemas** for runtime validation (env vars)
 - **Proxy middleware** in `src/proxy.ts` (not `middleware.ts`)
 
 ### MCP Tool Usage

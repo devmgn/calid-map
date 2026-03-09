@@ -57,16 +57,4 @@ it.for(patterns)("value: %s, expected: %s", ([value, expected]) => {
 ## Excluded from Tests (in vitest.config.ts)
 
 - `**/*.d.ts`, `**/*.stories.tsx`
-- `src/{api,mocks}/**`
 - Next.js special files (page.tsx, layout.tsx, loading.tsx, etc.)
-
-## API Mocking with MSW
-
-Import the shared MSW server when tests need API mocks:
-
-```typescript
-import { server } from "../../mocks/server";
-import { http, HttpResponse } from "msw";
-
-server.use(http.get("/api/...", () => HttpResponse.json(data)));
-```
