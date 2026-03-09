@@ -1,12 +1,12 @@
 "use client";
 
-type SaleFilterProps = {
+interface SaleFilterProps {
   saleTypes: string[];
   selectedSales: string[];
   onToggle: (saleType: string) => void;
   totalCount: number;
   filteredCount: number;
-};
+}
 
 function SaleFilter({
   saleTypes,
@@ -15,7 +15,9 @@ function SaleFilter({
   totalCount,
   filteredCount,
 }: SaleFilterProps) {
-  if (saleTypes.length === 0) return null;
+  if (saleTypes.length === 0) {
+    return null;
+  }
 
   return (
     <div className="rounded-lg border bg-white p-4 shadow-sm">
@@ -26,7 +28,9 @@ function SaleFilter({
             <input
               type="checkbox"
               checked={selectedSales.includes(type)}
-              onChange={() => onToggle(type)}
+              onChange={() => {
+                onToggle(type);
+              }}
               className="rounded"
             />
             {type}

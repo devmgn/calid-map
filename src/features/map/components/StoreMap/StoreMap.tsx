@@ -1,13 +1,18 @@
 "use client";
 
-import { APIProvider, Map, AdvancedMarker, InfoWindow } from "@vis.gl/react-google-maps";
-import { useState, useCallback } from "react";
-import { ENV } from "@/config/env";
 import type { Store } from "../../types";
+import {
+  APIProvider,
+  AdvancedMarker,
+  InfoWindow,
+  Map,
+} from "@vis.gl/react-google-maps";
+import { useCallback, useState } from "react";
+import { ENV } from "@/config/env";
 
-type StoreMapProps = {
+interface StoreMapProps {
   stores: Store[];
-};
+}
 
 const JAPAN_CENTER = { lat: 36.5, lng: 137.5 };
 const DEFAULT_ZOOM = 6;
@@ -27,7 +32,9 @@ function StoreMarker({
     <>
       <AdvancedMarker
         position={{ lat: store.lat, lng: store.lng }}
-        onClick={() => onSelect(store)}
+        onClick={() => {
+          onSelect(store);
+        }}
       >
         <div
           style={{
@@ -43,7 +50,9 @@ function StoreMarker({
       {isSelected && (
         <InfoWindow
           position={{ lat: store.lat, lng: store.lng }}
-          onCloseClick={() => onSelect(null)}
+          onCloseClick={() => {
+            onSelect(null);
+          }}
         >
           <div style={{ maxWidth: 250, padding: 4 }}>
             <h3 style={{ margin: "0 0 4px", fontSize: 14, fontWeight: 600 }}>

@@ -19,7 +19,10 @@
       }
     ],
     "noErrorTruncation": true,
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     ".next/dev/types/**/*.ts",
@@ -31,6 +34,7 @@
     "oxlint.config.ts",
     "postcss.config.mjs",
     "scripts/**/*.mjs",
+    "scripts/**/*.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     "vitest.config.ts",

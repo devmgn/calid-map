@@ -1,39 +1,43 @@
-import * as cheerio from "cheerio";
-import { writeFileSync, mkdirSync, existsSync, readFileSync } from "node:fs";
+import type { CheerioAPI } from "cheerio";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { load } from "cheerio";
 
 const BASE_URL = "https://map.kaldi.co.jp/kaldi/articleList";
 const DATA_DIR = resolve(import.meta.dirname, "../src/data");
 const OUTPUT_PATH = resolve(DATA_DIR, "stores.json");
 
-type RawStore = {
+interface RawStore {
   id: string;
   name: string;
   address: string;
   url: string;
   services: string[];
-};
+}
 
-type RawSale = {
+interface RawSale {
   storeId: string;
   type: string;
   status: string;
   startDate: string;
   endDate: string;
   detail: string;
-};
+}
 
 const ICON_TO_SERVICE: Record<string, string> = {
-  "icon_001": "酒類取扱",
-  "icon_002": "カフェ併設",
-  "icon_006": "Tax Free",
+  icon_001: "酒類取扱",
+  icon_002: "カフェ併設",
+  icon_006: "Tax Free",
 };
 
-function parseServiceIcons($: cheerio.CheerioAPI, row: cheerio.Element): string[] {
+function parseServiceIcons(
+  $: CheerioAPI,
+  $row: ReturnType<CheerioAPI>,
+): string[] {
   const services: string[] = [];
-  $(row).find('td[aria-label="お取り扱い"] img').each((_, img) => {
+  $row.find('td[aria-label="お取り扱い"] img').each((_, img) => {
     const src = $(img).attr("src") ?? "";
-    const match = src.match(/(icon_\d+)/);
+    const match = /(icon_\d+)/.exec(src);
     if (match && ICON_TO_SERVICE[match[1]]) {
       services.push(ICON_TO_SERVICE[match[1]]);
     }
@@ -45,7 +49,7 @@ async function fetchStores(): Promise<RawStore[]> {
   const url = `${BASE_URL}?template=Ctrl/DispListArticle_g12&pageLimit=10000&pageSize=1000&account=kaldi&accmd=0&searchType=True&pg=1`;
   const res = await fetch(url);
   const html = await res.text();
-  const $ = cheerio.load(html);
+  const $ = load(html);
 
   const stores: RawStore[] = [];
 
@@ -57,10 +61,12 @@ async function fetchStores(): Promise<RawStore[]> {
     const href = nameEl.attr("href") ?? "";
     const address = addressEl.text().trim();
 
-    const bidMatch = href.match(/bid=(\d+)/);
-    if (!bidMatch || !name) return;
+    const bidMatch = /bid=(\d+)/.exec(href);
+    if (!bidMatch || !name) {
+      return;
+    }
 
-    const services = parseServiceIcons($, row);
+    const services = parseServiceIcons($, $(row));
 
     stores.push({
       id: bidMatch[1],
@@ -71,7 +77,7 @@ async function fetchStores(): Promise<RawStore[]> {
     });
   });
 
-  console.log(`Fetched ${stores.length} stores`);
+  console.warn(`Fetched ${stores.length} stores`);
   return stores;
 }
 
@@ -80,7 +86,7 @@ async function fetchSales(): Promise<RawSale[]> {
   const url = `${BASE_URL}?account=kaldi&accmd=1&ftop=1&kkw001=${encodeURIComponent(now)}`;
   const res = await fetch(url);
   const html = await res.text();
-  const $ = cheerio.load(html);
+  const $ = load(html);
 
   const sales: RawSale[] = [];
 
@@ -92,8 +98,10 @@ async function fetchSales(): Promise<RawSale[]> {
     const detail = $(row).find("p.saledetail").text().trim();
 
     const href = storeLink.attr("href") ?? "";
-    const bidMatch = href.match(/bid=(\d+)/);
-    if (!bidMatch) return;
+    const bidMatch = /bid=(\d+)/.exec(href);
+    if (!bidMatch) {
+      return;
+    }
 
     const { startDate, endDate } = parseDateRange(dateText);
 
@@ -107,20 +115,26 @@ async function fetchSales(): Promise<RawSale[]> {
     });
   });
 
-  console.log(`Fetched ${sales.length} sales`);
+  console.warn(`Fetched ${sales.length} sales`);
   return sales;
+}
+
+function padZero(n: string): string {
+  return n.padStart(2, "0");
 }
 
 function parseDateRange(text: string): { startDate: string; endDate: string } {
   // "2026年3月5日(木) ～ 2026年3月9日(月)"
-  const pattern = /(\d{4})年(\d{1,2})月(\d{1,2})日.*?～\s*(\d{4})年(\d{1,2})月(\d{1,2})日/;
-  const m = text.match(pattern);
-  if (!m) return { startDate: "", endDate: "" };
+  const pattern =
+    /(\d{4})年(\d{1,2})月(\d{1,2})日.*?～\s*(\d{4})年(\d{1,2})月(\d{1,2})日/;
+  const m = pattern.exec(text);
+  if (!m) {
+    return { startDate: "", endDate: "" };
+  }
 
-  const pad = (n: string) => n.padStart(2, "0");
   return {
-    startDate: `${m[1]}-${pad(m[2])}-${pad(m[3])}`,
-    endDate: `${m[4]}-${pad(m[5])}-${pad(m[6])}`,
+    startDate: `${m[1]}-${padZero(m[2])}-${padZero(m[3])}`,
+    endDate: `${m[4]}-${padZero(m[5])}-${padZero(m[6])}`,
   };
 }
 
@@ -142,8 +156,7 @@ async function geocodeAddress(
 async function main() {
   const apiKey = process.env.GOOGLE_GEOCODING_API_KEY;
   if (!apiKey) {
-    console.error("GOOGLE_GEOCODING_API_KEY is required");
-    process.exit(1);
+    throw new Error("GOOGLE_GEOCODING_API_KEY is required");
   }
 
   const [rawStores, sales] = await Promise.all([fetchStores(), fetchSales()]);
@@ -151,7 +164,7 @@ async function main() {
   // Load existing data if available (to reuse geocoded coordinates)
   const existingStores = new Map<string, { lat: number; lng: number }>();
   if (existsSync(OUTPUT_PATH)) {
-    const existing = JSON.parse(readFileSync(OUTPUT_PATH, "utf-8"));
+    const existing = JSON.parse(readFileSync(OUTPUT_PATH, "utf8"));
     for (const s of existing.stores) {
       existingStores.set(s.id, { lat: s.lat, lng: s.lng });
     }
@@ -168,12 +181,19 @@ async function main() {
   // Geocode and merge
   const stores = [];
   for (const raw of rawStores) {
-    let coords = existingStores.get(raw.id);
+    let coords: { lat: number; lng: number } | null | undefined =
+      existingStores.get(raw.id);
     if (!coords) {
+      // oxlint-disable-next-line no-await-in-loop -- sequential geocoding with rate limit
       coords = await geocodeAddress(raw.address, apiKey);
-      if (!coords) continue;
+      if (!coords) {
+        continue;
+      }
       // Rate limit: Google Geocoding API allows 50 req/s
-      await new Promise((r) => setTimeout(r, 50));
+      // oxlint-disable-next-line no-await-in-loop -- intentional delay between API calls
+      await new Promise((_resolve) => {
+        setTimeout(_resolve, 50);
+      });
     }
 
     const storeSales = salesByStore.get(raw.id) ?? [];
@@ -205,8 +225,8 @@ async function main() {
     stores,
   };
 
-  writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2), "utf-8");
-  console.log(`Saved ${stores.length} stores to ${OUTPUT_PATH}`);
+  writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2), "utf8");
+  console.warn(`Saved ${stores.length} stores to ${OUTPUT_PATH}`);
 }
 
-main().catch(console.error);
+await main();

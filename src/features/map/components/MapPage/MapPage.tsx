@@ -1,13 +1,13 @@
 "use client";
 
-import { StoreMap } from "../StoreMap";
-import { SaleFilter } from "../SaleFilter";
-import { useSaleFilter } from "../../hooks/useSaleFilter";
 import type { StoresData } from "../../types";
+import { useSaleFilter } from "../../hooks/useSaleFilter";
+import { SaleFilter } from "../SaleFilter";
+import { StoreMap } from "../StoreMap";
 
-type MapPageProps = {
+interface MapPageProps {
   data: StoresData;
-};
+}
 
 function MapPage({ data }: MapPageProps) {
   const { saleTypes, selectedSales, toggleSale, filteredStores } =
@@ -16,7 +16,7 @@ function MapPage({ data }: MapPageProps) {
   return (
     <div className="relative h-dvh w-full">
       <StoreMap stores={filteredStores} />
-      <div className="absolute left-4 top-4 z-10 w-56">
+      <div className="absolute top-4 left-4 z-10 w-56">
         <SaleFilter
           saleTypes={saleTypes}
           selectedSales={selectedSales}

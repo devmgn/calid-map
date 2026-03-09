@@ -1,8 +1,8 @@
 "use client";
 
+import type { Store } from "../types";
 import { parseAsArrayOf, parseAsString, useQueryState } from "nuqs";
 import { useMemo } from "react";
-import type { Store } from "../types";
 
 function useSaleFilter(stores: Store[]) {
   const [selectedSales, setSelectedSales] = useQueryState(
@@ -17,18 +17,20 @@ function useSaleFilter(stores: Store[]) {
         types.add(sale.type);
       }
     }
-    return Array.from(types).sort();
+    return [...types].toSorted();
   }, [stores]);
 
   const filteredStores = useMemo(() => {
-    if (selectedSales.length === 0) return stores;
+    if (selectedSales.length === 0) {
+      return stores;
+    }
     return stores.filter((store) =>
       store.sales.some((sale) => selectedSales.includes(sale.type)),
     );
-  }, [stores, selectedSales]);
+  }, [selectedSales, stores]);
 
   function toggleSale(saleType: string) {
-    setSelectedSales((prev) =>
+    void setSelectedSales((prev) =>
       prev.includes(saleType)
         ? prev.filter((s) => s !== saleType)
         : [...prev, saleType],
