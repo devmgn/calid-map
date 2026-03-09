@@ -236,3 +236,6 @@ scripts/actionlint
 
 # next-agents-md
 .next-docs/
+
+# Local scraper output (runtime data fetched from Vercel Blob)
+src/data/
