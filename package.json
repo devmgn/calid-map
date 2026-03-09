@@ -22,8 +22,7 @@
     "analyze": "next experimental-analyze",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate-api": "pnpm dlx @openapitools/openapi-generator-cli generate -i openapi.yml -g typescript-fetch -o ./src/api/openapi -c openapiconfig.json --openapi-normalizer SET_TAGS_FOR_ALL_OPERATIONS=default",
-    "generate-api:clean": "rm -rf src/api/openapi && pnpm generate-api"
+    "scrape": "npx tsx scripts/scrape-stores.ts"
   },
   "dependencies": {
     "@tanstack/react-query": "5.90.21",

@@ -14,7 +14,9 @@ function useSaleFilter(stores: Store[]) {
     const types = new Set<string>();
     for (const store of stores) {
       for (const sale of store.sales) {
-        types.add(sale.type);
+        if (sale.type) {
+          types.add(sale.type);
+        }
       }
     }
     return [...types].toSorted();

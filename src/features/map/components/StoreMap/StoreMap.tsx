@@ -1,6 +1,6 @@
 "use client";
 
-import type { Store } from "../../types";
+import type { Sale, Store } from "../../types";
 import {
   APIProvider,
   AdvancedMarker,
@@ -17,6 +17,36 @@ interface StoreMapProps {
 const JAPAN_CENTER = { lat: 36.5, lng: 137.5 };
 const DEFAULT_ZOOM = 6;
 
+type SaleStatus = "active" | "upcoming" | "none";
+
+function getSaleStatus(sales: Sale[]): SaleStatus {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  let hasUpcoming = false;
+
+  for (const sale of sales) {
+    const start = new Date(sale.startDate);
+    const end = new Date(sale.endDate);
+    end.setHours(23, 59, 59, 999);
+
+    if (start <= today && today <= end) {
+      return "active";
+    }
+    if (start > today) {
+      hasUpcoming = true;
+    }
+  }
+
+  return hasUpcoming ? "upcoming" : "none";
+}
+
+const MARKER_COLORS: Record<SaleStatus, string> = {
+  active: "#dc2626",
+  upcoming: "#f59e0b",
+  none: "#6b7280",
+};
+
 function StoreMarker({
   store,
   isSelected,
@@ -26,7 +56,7 @@ function StoreMarker({
   isSelected: boolean;
   onSelect: (store: Store | null) => void;
 }) {
-  const hasSale = store.sales.length > 0;
+  const saleStatus = getSaleStatus(store.sales);
 
   return (
     <>
@@ -38,10 +68,10 @@ function StoreMarker({
       >
         <div
           style={{
-            width: 12,
-            height: 12,
+            width: 24,
+            height: 24,
             borderRadius: "50%",
-            background: hasSale ? "#dc2626" : "#6b7280",
+            background: MARKER_COLORS[saleStatus],
             border: "2px solid white",
             boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
           }}

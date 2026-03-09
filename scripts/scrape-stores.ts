@@ -91,15 +91,15 @@ async function fetchSales(): Promise<RawSale[]> {
   const sales: RawSale[] = [];
 
   $("table.cz_sp_table tbody tr").each((_, row) => {
-    const status = $(row).find("span.saleicon").text().trim();
-    const type = $(row).find("span.saletitle").text().trim();
+    const status = $(row).find("span.saleicon, span.saleicon_f").text().trim();
+    const type = $(row).find("span.saletitle, span.saletitle_f").text().trim();
     const storeLink = $(row).find("span.salename a");
-    const dateText = $(row).find("p.saledate").text().trim();
+    const dateText = $(row).find("p.saledate, p.saledate_f").text().trim();
     const detail = $(row).find("p.saledetail").text().trim();
 
     const href = storeLink.attr("href") ?? "";
     const bidMatch = /bid=(\d+)/.exec(href);
-    if (!bidMatch) {
+    if (!bidMatch || !type) {
       return;
     }
 
