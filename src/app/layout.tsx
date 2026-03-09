@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: ENV.APP_NAME,
   description: ENV.DEFAULT_DESCRIPTION,
   icons: ["images/favicon.ico"],
+  robots: { index: false, follow: false },
 };
 
 export const viewport: Viewport = {
