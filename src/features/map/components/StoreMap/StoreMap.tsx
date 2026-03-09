@@ -7,7 +7,7 @@ import {
   InfoWindow,
   Map,
 } from "@vis.gl/react-google-maps";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { ENV } from "@/config/env";
 
 interface StoreMapProps {
@@ -15,7 +15,8 @@ interface StoreMapProps {
 }
 
 const JAPAN_CENTER = { lat: 36.5, lng: 137.5 };
-const DEFAULT_ZOOM = 6;
+const DEFAULT_ZOOM = 11;
+const FALLBACK_ZOOM = 8;
 
 type SaleStatus = "active" | "upcoming" | "none";
 
@@ -122,22 +123,70 @@ function StoreMarker({
   );
 }
 
+function useCurrentPosition() {
+  const hasGeolocation =
+    typeof window !== "undefined" && "geolocation" in navigator;
+  const [position, setPosition] = useState<{ lat: number; lng: number } | null>(
+    null,
+  );
+  const [resolved, setResolved] = useState(!hasGeolocation);
+
+  useEffect(() => {
+    if (!hasGeolocation) {
+      return;
+    }
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setPosition({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        setResolved(true);
+      },
+      () => {
+        setResolved(true);
+      },
+    );
+  }, [hasGeolocation]);
+
+  return { position, resolved };
+}
+
 function StoreMap({ stores }: StoreMapProps) {
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
+  const { position: currentPosition, resolved } = useCurrentPosition();
 
   const handleSelect = useCallback((store: Store | null) => {
     setSelectedStore(store);
   }, []);
 
+  if (!resolved) {
+    return null;
+  }
+
+  const center = currentPosition ?? JAPAN_CENTER;
+  const zoom = currentPosition ? DEFAULT_ZOOM : FALLBACK_ZOOM;
+
   return (
     <APIProvider apiKey={ENV.GOOGLE_MAPS_API_KEY}>
       <Map
-        defaultCenter={JAPAN_CENTER}
-        defaultZoom={DEFAULT_ZOOM}
+        defaultCenter={center}
+        defaultZoom={zoom}
         mapId="kaldi-store-map"
         style={{ width: "100%", height: "100%" }}
         gestureHandling="greedy"
       >
+        {currentPosition && (
+          <AdvancedMarker position={currentPosition}>
+            <div
+              style={{
+                width: 16,
+                height: 16,
+                borderRadius: "50%",
+                background: "#4285F4",
+                border: "3px solid white",
+                boxShadow: "0 0 6px rgba(66,133,244,0.6)",
+              }}
+            />
+          </AdvancedMarker>
+        )}
         {stores.map((store) => (
           <StoreMarker
             key={store.id}
