@@ -11,5 +11,7 @@ export const envSchema = z
     APP_NAME: z.string(),
     /** デフォルトのdescription */
     DEFAULT_DESCRIPTION: z.string(),
+    /** Google Maps APIキー */
+    GOOGLE_MAPS_API_KEY: z.string().default(""),
   })
   .readonly();

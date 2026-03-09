@@ -4,4 +4,5 @@ export const ENV = envSchema.parse({
   SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
   APP_NAME: process.env.NEXT_PUBLIC_APP_NAME,
   DEFAULT_DESCRIPTION: process.env.NEXT_PUBLIC_DEFAULT_DESCRIPTION,
+  GOOGLE_MAPS_API_KEY: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
 });

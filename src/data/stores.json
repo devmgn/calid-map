@@ -1,0 +1,5287 @@
+{
+  "stores": [
+    {
+      "address": "東京都三鷹市下連雀3-46-1　アトレヴィ三鷹 3F",
+      "id": "572",
+      "lat": 35.7026757,
+      "lng": 139.5610059,
+      "name": "アトレヴィ三鷹店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=572&pgret=2"
+    },
+    {
+      "address": "東京都武蔵野市吉祥寺南町1-1-24　アトレ吉祥寺 2F",
+      "id": "197",
+      "lat": 35.7030679,
+      "lng": 139.5792628,
+      "name": "アトレ吉祥寺店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=197&pgret=2"
+    },
+    {
+      "address": "栃木県小山市喜沢1475　おやまゆうえんハーヴェストウォーク",
+      "id": "591",
+      "lat": 36.3346617,
+      "lng": 139.8078978,
+      "name": "おやまゆうえんハーヴェストウォーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=591&pgret=2"
+    },
+    {
+      "address": "神奈川県鎌倉市大船1-4-1　大船ルミネウィング 2F",
+      "id": "033",
+      "lat": 35.3526774,
+      "lng": 139.5314275,
+      "name": "大船ルミネウィング店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=033&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市中区栄3-4-6先　サカエチカ",
+      "id": "303",
+      "lat": 35.168909,
+      "lng": 136.906537,
+      "name": "サカエチカ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=303&pgret=2"
+    },
+    {
+      "address": "東京都立川市若葉町1-7-1　若葉ケヤキモールC棟 1F",
+      "id": "084",
+      "lat": 35.7206579,
+      "lng": 139.4344047,
+      "name": "立川若葉ケヤキモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=084&pgret=2"
+    },
+    {
+      "address": "福岡県北九州市小倉北区砂津3-1-1　チャチャタウン小倉 1F",
+      "id": "277",
+      "lat": 33.8853171,
+      "lng": 130.8897019,
+      "name": "チャチャタウン小倉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=277&pgret=2"
+    },
+    {
+      "address": "東京都台東区上野3-24-6　パルコヤ B1F",
+      "id": "561",
+      "lat": 35.7068605,
+      "lng": 139.7731332,
+      "name": "パルコヤ上野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=561&pgret=2"
+    },
+    {
+      "address": "神奈川県座間市広野台2-10-4　イオンモール座間 1F",
+      "id": "455",
+      "lat": 35.5005312,
+      "lng": 139.4250261,
+      "name": "イオンモール座間店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=455&pgret=2"
+    },
+    {
+      "address": "千葉県船橋市本町7-1-1　シャポー船橋 1F",
+      "id": "451",
+      "lat": 35.7015869,
+      "lng": 139.9859944,
+      "name": "シャポー船橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=451&pgret=2"
+    },
+    {
+      "address": "京都府京都市中京区三条通寺町東入石橋町26",
+      "id": "485",
+      "lat": 35.0086443,
+      "lng": 135.7685491,
+      "name": "三条河原町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=485&pgret=2"
+    },
+    {
+      "address": "香川県三豊市豊中町本山甲22番地　ゆめタウン三豊 1F",
+      "id": "299",
+      "lat": 34.1454466,
+      "lng": 133.6995736,
+      "name": "ゆめタウン三豊店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=299&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市中原区木月1-30-25　ネバーランドビル 1F",
+      "id": "338",
+      "lat": 35.5652231,
+      "lng": 139.6513059,
+      "name": "元住吉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=338&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市浦和区高砂1-12-1　浦和コルソ 1F",
+      "id": "345",
+      "lat": 35.8583566,
+      "lng": 139.655874,
+      "name": "浦和コルソ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=345&pgret=2"
+    },
+    {
+      "address": "東京都渋谷区西原3-8-5 　アコルデ代々木上原 2F",
+      "id": "246",
+      "lat": 35.6694668,
+      "lng": 139.6807104,
+      "name": "アコルデ代々木上原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=246&pgret=2"
+    },
+    {
+      "address": "愛知県安城市大東町9-30　ららぽーと安城 1F",
+      "id": "597",
+      "lat": 34.9654472,
+      "lng": 137.0802649,
+      "name": "ららぽーと安城店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=597&pgret=2"
+    },
+    {
+      "address": "東京都品川区中延5-7-9　葛巻ビル 1F",
+      "id": "533",
+      "lat": 35.6030044,
+      "lng": 139.7079907,
+      "name": "荏原町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=533&pgret=2"
+    },
+    {
+      "address": "東京都国分寺市本町3-1-1　ミーツ国分寺 3F",
+      "id": "460",
+      "lat": 35.7006592,
+      "lng": 139.4808189,
+      "name": "ミーツ国分寺店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=460&pgret=2"
+    },
+    {
+      "address": "大阪府高槻市白梅町4-1　高槻阪急スクエア  2F",
+      "id": "553",
+      "lat": 34.8534397,
+      "lng": 135.6183222,
+      "name": "高槻阪急スクエア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=553&pgret=2"
+    },
+    {
+      "address": "奈良県生駒市谷田町1600　近鉄百貨店生駒店 2F",
+      "id": "462",
+      "lat": 34.6937966,
+      "lng": 135.6980812,
+      "name": "近鉄生駒店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=462&pgret=2"
+    },
+    {
+      "address": "長野県佐久市佐久平駅南11-10　イオンモール佐久平 1F",
+      "id": "535",
+      "lat": 36.2755072,
+      "lng": 138.4640247,
+      "name": "イオンモール佐久平店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=535&pgret=2"
+    },
+    {
+      "address": "大分県大分市大字玉沢 　トキハわさだタウン2街区ショッピングタウン 1F",
+      "id": "281",
+      "lat": 33.18840369999999,
+      "lng": 131.5812176,
+      "name": "トキハわさだタウン店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=281&pgret=2"
+    },
+    {
+      "address": "北海道旭川市緑町23-2161-3　イオンモール旭川西 1F",
+      "id": "051",
+      "lat": 43.793687,
+      "lng": 142.3272495,
+      "name": "イオンモール旭川西店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=051&pgret=2"
+    },
+    {
+      "address": "京都府京都市南区西九条鳥居口町1番地　イオンモールKYOTO 1F",
+      "id": "202",
+      "lat": 34.9827278,
+      "lng": 135.7544554,
+      "name": "イオンモールKYOTO店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=202&pgret=2"
+    },
+    {
+      "address": "北海道札幌市豊平区西岡3条3-4-1　イオン札幌西岡SC 1F",
+      "id": "201",
+      "lat": 43.0189293,
+      "lng": 141.387257,
+      "name": "札幌西岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=201&pgret=2"
+    },
+    {
+      "address": "東京都八王子市南大沢2-28-1　イトーヨーカドー南大沢店 1F",
+      "id": "390",
+      "lat": 35.6132224,
+      "lng": 139.3794885,
+      "name": "イトーヨーカドー南大沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=390&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市博多区那珂6-23-1　ららぽーと福岡 1F",
+      "id": "545",
+      "lat": 33.5651676,
+      "lng": 130.4409414,
+      "name": "ららぽーと福岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=545&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区太子堂2-17-6　第5カスタムビル 1F",
+      "id": "473",
+      "lat": 35.6447469,
+      "lng": 139.6708457,
+      "name": "三軒茶屋　茶沢通り店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=473&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市北区茶屋町8番26号　NU茶屋町プラス 203 2F",
+      "id": "237",
+      "lat": 34.7073072,
+      "lng": 135.4997011,
+      "name": "茶屋町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=237&pgret=2"
+    },
+    {
+      "address": "東京都練馬区練馬1-17-1　Coconeri 2F",
+      "id": "365",
+      "lat": 35.7382664,
+      "lng": 139.653299,
+      "name": "ココネリ練馬北口店",
+      "sales": [],
+      "services": ["酒類取扱", "カフェ併設"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=365&pgret=2"
+    },
+    {
+      "address": "愛知県稲沢市天池五反田町1番地　アピタタウン稲沢 1F",
+      "id": "359",
+      "lat": 35.2526862,
+      "lng": 136.7720684,
+      "name": "アピタタウン稲沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=359&pgret=2"
+    },
+    {
+      "address": "京都府京都市中京区御池通寺町東入下本能寺前町492-1　ゼスト御池 B1F",
+      "id": "287",
+      "lat": 35.0108753,
+      "lng": 135.7678516,
+      "name": "ゼスト御池店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=287&pgret=2"
+    },
+    {
+      "address": "北海道札幌市中央区北5条西3丁目　アピア",
+      "id": "400",
+      "lat": 43.0672662,
+      "lng": 141.350696,
+      "name": "札幌アピア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=400&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市中区伊勢佐木町2-66　満利屋ビル 1F",
+      "id": "251",
+      "lat": 35.4436085,
+      "lng": 139.632026,
+      "name": "伊勢佐木町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=251&pgret=2"
+    },
+    {
+      "address": "愛知県一宮市両郷町1-2　テラスウォーク一宮 1F",
+      "id": "355",
+      "lat": 35.3103717,
+      "lng": 136.8169879,
+      "name": "テラスウォーク一宮店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=355&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市中央区難波3-8-9　なんばマルイ B1F",
+      "id": "170",
+      "lat": 34.6655474,
+      "lng": 135.5010172,
+      "name": "なんばマルイ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=170&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市緑区美園5-50-1　イオンモール浦和美園 1F",
+      "id": "087",
+      "lat": 35.8908754,
+      "lng": 139.7312494,
+      "name": "イオンモール浦和美園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=087&pgret=2"
+    },
+    {
+      "address": "北海道千歳市栄町6-51 　イオン千歳 1F",
+      "id": "339",
+      "lat": 42.82883,
+      "lng": 141.648049,
+      "name": "イオン千歳店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=339&pgret=2"
+    },
+    {
+      "address": "埼玉県川口市安行領根岸3180　イオンモール川口 1F",
+      "id": "538",
+      "lat": 35.8381627,
+      "lng": 139.7225712,
+      "name": "イオンモール川口店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=538&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市若林区卸町1-1-1　イオンスタイル仙台卸町 1F",
+      "id": "470",
+      "lat": 38.2524902,
+      "lng": 140.9197026,
+      "name": "イオンスタイル仙台卸町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=470&pgret=2"
+    },
+    {
+      "address": "大阪府泉佐野市日根野2496-1 イオンモール日根野 1F",
+      "id": "570",
+      "lat": 34.3935521,
+      "lng": 135.3337667,
+      "name": "イオンモール日根野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=570&pgret=2"
+    },
+    {
+      "address": "栃木県宇都宮市インターパーク6-1-1　FKDインターパーク 1F",
+      "id": "536",
+      "lat": 36.4904424,
+      "lng": 139.9069012,
+      "name": "FKDインターパーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=536&pgret=2"
+    },
+    {
+      "address": "神奈川県小田原市栄町1-1-7　小田原地下街　ハルネ小田原",
+      "id": "372",
+      "lat": 35.2555898,
+      "lng": 139.1565442,
+      "name": "ハルネ小田原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=372&pgret=2"
+    },
+    {
+      "address": "東京都杉並区永福2-60-31　京王リトナード永福町 2F",
+      "id": "229",
+      "lat": 35.6761117,
+      "lng": 139.6433067,
+      "name": "京王リトナード永福町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=229&pgret=2"
+    },
+    {
+      "address": "熊本県菊池郡菊陽町光の森7-33-1　ゆめタウン光の森 1F",
+      "id": "215",
+      "lat": 32.8607642,
+      "lng": 130.7843399,
+      "name": "ゆめタウン光の森店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=215&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市千種区千種2-16-13　イオンタウン千種 1F",
+      "id": "072",
+      "lat": 35.1613728,
+      "lng": 136.9241527,
+      "name": "イオンタウン千種店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=072&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市北区宮原町1-854-1　ステラモール 1F",
+      "id": "052",
+      "lat": 35.9329251,
+      "lng": 139.6219398,
+      "name": "宮原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=052&pgret=2"
+    },
+    {
+      "address": "神奈川県海老名市中央1-6-1　海老名マルイ 2F",
+      "id": "030",
+      "lat": 35.4527279,
+      "lng": 139.3934008,
+      "name": "海老名マルイ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=030&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市阿倍野区阿倍野筋1-6-1　あべのキューズモール B1F",
+      "id": "537",
+      "lat": 34.6434456,
+      "lng": 135.511656,
+      "name": "あべのキューズモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=537&pgret=2"
+    },
+    {
+      "address": "埼玉県和光市本町4-7　エキア プレミエ 和光 1F",
+      "id": "512",
+      "lat": 35.788241,
+      "lng": 139.6121687,
+      "name": "エキア プレミエ 和光店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=512&pgret=2"
+    },
+    {
+      "address": "広島県東広島市西条土与丸1-5-7　ゆめタウン東広島 1F",
+      "id": "520",
+      "lat": 34.4270613,
+      "lng": 132.7502436,
+      "name": "ゆめタウン東広島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=520&pgret=2"
+    },
+    {
+      "address": "北海道北見市北進町1-1-1　イオン北見 1F",
+      "id": "405",
+      "lat": 43.8084729,
+      "lng": 143.8755714,
+      "name": "イオン北見店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=405&pgret=2"
+    },
+    {
+      "address": "岡山県岡山市北区駅元町一番街地下6号",
+      "id": "445",
+      "lat": 34.6666264,
+      "lng": 133.9158047,
+      "name": "岡山一番街店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=445&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市天王寺区上本町6-5-13　上本町YUFURA 1F",
+      "id": "569",
+      "lat": 34.6648389,
+      "lng": 135.5196772,
+      "name": "上本町YUFURA店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=569&pgret=2"
+    },
+    {
+      "address": "秋田県大仙市和合字坪立177　イオンモール大曲 1F",
+      "id": "157",
+      "lat": 39.4376946,
+      "lng": 140.5092729,
+      "name": "大曲店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=157&pgret=2"
+    },
+    {
+      "address": "大阪府吹田市豊津町9番40　カリーノ江坂 1F",
+      "id": "238",
+      "lat": 34.7582327,
+      "lng": 135.4962673,
+      "name": "江坂店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=238&pgret=2"
+    },
+    {
+      "address": "東京都日野市多摩平2-4-1　イオンモール多摩平の森 1F",
+      "id": "374",
+      "lat": 35.6618791,
+      "lng": 139.3800741,
+      "name": "イオンモール多摩平の森店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=374&pgret=2"
+    },
+    {
+      "address": "茨城県土浦市上高津367番地　イオンモール土浦 1F",
+      "id": "174",
+      "lat": 36.0798264,
+      "lng": 140.1787223,
+      "name": "イオンモール土浦店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=174&pgret=2"
+    },
+    {
+      "address": "神奈川県横須賀市久里浜5-13-1　イオン横須賀久里浜SC 1F",
+      "id": "173",
+      "lat": 35.2290339,
+      "lng": 139.7040612,
+      "name": "イオン久里浜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=173&pgret=2"
+    },
+    {
+      "address": "埼玉県川口市栄町3-5-1　ららテラス川口 B1F",
+      "id": "598",
+      "lat": 35.8029963,
+      "lng": 139.7186953,
+      "name": "ららテラス川口店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=598&pgret=2"
+    },
+    {
+      "address": "埼玉県狭山市祇園4-55　Emio狭山市 2F",
+      "id": "242",
+      "lat": 35.8569605,
+      "lng": 139.4132362,
+      "name": "エミオ狭山市店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=242&pgret=2"
+    },
+    {
+      "address": "岐阜県関市倉知516番地　マーゴ 1F",
+      "id": "319",
+      "lat": 35.4779098,
+      "lng": 136.9001118,
+      "name": "関マーゴ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=319&pgret=2"
+    },
+    {
+      "address": "静岡県磐田市高見丘1200番地　ららぽーと磐田 1F",
+      "id": "175",
+      "lat": 34.7502867,
+      "lng": 137.8418998,
+      "name": "ららぽーと磐田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=175&pgret=2"
+    },
+    {
+      "address": "東京都品川区小山3-23-4　やまとビル",
+      "id": "012",
+      "lat": 35.6186207,
+      "lng": 139.7054024,
+      "name": "武蔵小山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=012&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市都筑区中川中央1-25-1　ノースポート・モール 2F",
+      "id": "548",
+      "lat": 35.55209809999999,
+      "lng": 139.5794141,
+      "name": "ノースポート・モール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=548&pgret=2"
+    },
+    {
+      "address": "神奈川県茅ヶ崎市茅ヶ崎2-7-71　そよら湘南茅ヶ崎1F",
+      "id": "074",
+      "lat": 35.334861,
+      "lng": 139.4099027,
+      "name": "そよら湘南茅ヶ崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=074&pgret=2"
+    },
+    {
+      "address": "千葉県浦安市入船1-5-1　MONA新浦安 1F",
+      "id": "187",
+      "lat": 35.6488976,
+      "lng": 139.9127092,
+      "name": "MONA新浦安店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=187&pgret=2"
+    },
+    {
+      "address": "東京都江東区北砂2-17-1　アリオ北砂アリオモール 1F",
+      "id": "203",
+      "lat": 35.6827062,
+      "lng": 139.8261643,
+      "name": "アリオ北砂店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=203&pgret=2"
+    },
+    {
+      "address": "大阪府吹田市津雲台1-1-30　tonarie 1F",
+      "id": "291",
+      "lat": 34.793863,
+      "lng": 135.509622,
+      "name": "tonarie南千里店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=291&pgret=2"
+    },
+    {
+      "address": "静岡県浜松市中央区初生町626-1　ラフレ初生 1F",
+      "id": "347",
+      "lat": 34.7640057,
+      "lng": 137.7204636,
+      "name": "ラフレ初生店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=347&pgret=2"
+    },
+    {
+      "address": "千葉県船橋市西船4-27-7　ペリエ西船橋 2F",
+      "id": "066",
+      "lat": 35.7075884,
+      "lng": 139.9593601,
+      "name": "ペリエ西船橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=066&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区太子堂4-1-1　キャロットタワー 1F「Carrot St. SANCHA」",
+      "id": "040",
+      "lat": 35.6438236,
+      "lng": 139.6692852,
+      "name": "Carrot St. SANCHA店（三軒茶屋）",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=040&pgret=2"
+    },
+    {
+      "address": "埼玉県新座市東北2-38-10　エキア志木 1F",
+      "id": "429",
+      "lat": 35.8222386,
+      "lng": 139.5751182,
+      "name": "エキア志木店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=429&pgret=2"
+    },
+    {
+      "address": "東京都国立市北1-14-1　nonowa国立 EAST",
+      "id": "517",
+      "lat": 35.6992738,
+      "lng": 139.4469758,
+      "name": "nonowa国立店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=517&pgret=2"
+    },
+    {
+      "address": "沖縄県浦添市西洲3-1-1　サンエー浦添西海岸 PARCO CITY 1F",
+      "id": "495",
+      "lat": 26.2617542,
+      "lng": 127.6981799,
+      "name": "浦添パルコシティ店",
+      "sales": [],
+      "services": ["酒類取扱", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=495&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市中原区上小田中4‐2‐1　ビーンズ武蔵中原 1F",
+      "id": "549",
+      "lat": 35.5812844,
+      "lng": 139.6414256,
+      "name": "ビーンズ武蔵中原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=549&pgret=2"
+    },
+    {
+      "address": "広島県廿日市市下平良2-2-1　ゆめタウン廿日市 1F",
+      "id": "380",
+      "lat": 34.3460322,
+      "lng": 132.3355638,
+      "name": "ゆめタウン廿日市店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=380&pgret=2"
+    },
+    {
+      "address": "福岡県大牟田市旭町2-28-1　ゆめタウン大牟田 1F",
+      "id": "325",
+      "lat": 33.0364039,
+      "lng": 130.4540783,
+      "name": "ゆめタウン大牟田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=325&pgret=2"
+    },
+    {
+      "address": "埼玉県上尾市壱丁目北29-14　アリオ上尾 1F",
+      "id": "342",
+      "lat": 35.9610414,
+      "lng": 139.5651393,
+      "name": "アリオ上尾店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=342&pgret=2"
+    },
+    {
+      "address": "東京都江東区有明2-1-8　有明ガーデン 2F",
+      "id": "514",
+      "lat": 35.6381134,
+      "lng": 139.7924937,
+      "name": "有明ガーデン店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=514&pgret=2"
+    },
+    {
+      "address": "北海道苫小牧市柳町3-1-20　イオンモール苫小牧 1F",
+      "id": "244",
+      "lat": 42.6557593,
+      "lng": 141.6407995,
+      "name": "苫小牧店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=244&pgret=2"
+    },
+    {
+      "address": "島根県出雲市大塚町650-1　ゆめタウン出雲 1F",
+      "id": "271",
+      "lat": 35.377653,
+      "lng": 132.75486,
+      "name": "ゆめタウン出雲店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=271&pgret=2"
+    },
+    {
+      "address": "兵庫県尼崎市塚口本町4-8-1　グンゼタウンセンター つかしん ひがしまち南館 1F",
+      "id": "290",
+      "lat": 34.761684,
+      "lng": 135.4186715,
+      "name": "つかしん店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=290&pgret=2"
+    },
+    {
+      "address": "熊本県上益城郡嘉島町大字上島字長池2232　イオンモール熊本 1F",
+      "id": "265",
+      "lat": 32.7376424,
+      "lng": 130.7443502,
+      "name": "イオンモール熊本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=265&pgret=2"
+    },
+    {
+      "address": "東京都港区新橋2-17-14　JR新橋駅地下1階（汐留口改札付近）",
+      "id": "369",
+      "lat": 35.6663964,
+      "lng": 139.7586958,
+      "name": "新橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=369&pgret=2"
+    },
+    {
+      "address": "宮城県石巻市茜平4-104　イオンモール石巻 1F",
+      "id": "114",
+      "lat": 38.4478396,
+      "lng": 141.2661156,
+      "name": "石巻店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=114&pgret=2"
+    },
+    {
+      "address": "東京都八王子市東浅川町550-1　イーアス高尾 1F",
+      "id": "436",
+      "lat": 35.6432023,
+      "lng": 139.2891754,
+      "name": "イーアス高尾店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=436&pgret=2"
+    },
+    {
+      "address": "兵庫県西宮市田中町1番6号　エビスタ西宮 1F",
+      "id": "384",
+      "lat": 34.7368451,
+      "lng": 135.3383475,
+      "name": "エビスタ西宮店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=384&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市博多区博多駅中央街1-1　博多駅 1F マイング",
+      "id": "367",
+      "lat": 33.5897275,
+      "lng": 130.4207274,
+      "name": "マイング博多店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=367&pgret=2"
+    },
+    {
+      "address": "埼玉県ふじみ野市うれし野2-10-87　ショッピングセンタートナリエふじみ野 1F",
+      "id": "293",
+      "lat": 35.8571566,
+      "lng": 139.5244981,
+      "name": "トナリエふじみ野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=293&pgret=2"
+    },
+    {
+      "address": "広島県福山市入船町3-1-60　ゆめタウン福山店 1F",
+      "id": "314",
+      "lat": 34.4854547,
+      "lng": 133.3785145,
+      "name": "ゆめタウン福山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=314&pgret=2"
+    },
+    {
+      "address": "北海道札幌市東区東苗穂2条3-1-1　イオンモール札幌苗穂 1F",
+      "id": "176",
+      "lat": 43.0797445,
+      "lng": 141.4047881,
+      "name": "札幌苗穂店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=176&pgret=2"
+    },
+    {
+      "address": "東京都品川区上大崎2-16-9　アトレ目黒1 3F",
+      "id": "571",
+      "lat": 35.6340241,
+      "lng": 139.715916,
+      "name": "アトレ目黒店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=571&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市西区高島2-16-1　ルミネ横浜 B2F",
+      "id": "484",
+      "lat": 35.4653617,
+      "lng": 139.6228887,
+      "name": "ルミネ横浜店",
+      "sales": [],
+      "services": ["酒類取扱", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=484&pgret=2"
+    },
+    {
+      "address": "栃木県佐野市高萩町1324-1　イオンモール佐野新都市 1F",
+      "id": "177",
+      "lat": 36.2996418,
+      "lng": 139.6066422,
+      "name": "佐野新都市店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=177&pgret=2"
+    },
+    {
+      "address": "愛知県西春日井郡豊山町豊場林先1-8　エアポートウォーク名古屋 1F",
+      "id": "158",
+      "lat": 35.245942,
+      "lng": 136.9248227,
+      "name": "エアポートウォーク名古屋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=158&pgret=2"
+    },
+    {
+      "address": "茨城県守谷市百合ヶ丘3-249-1　イオンタウン守谷 1F",
+      "id": "120",
+      "lat": 35.9448157,
+      "lng": 139.990594,
+      "name": "守谷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=120&pgret=2"
+    },
+    {
+      "address": "大阪府枚方市楠葉花園町15-1　KUZUHA MALL 本館ミドリノモール 1F",
+      "id": "381",
+      "lat": 34.8615018,
+      "lng": 135.6773988,
+      "name": "くずはモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=381&pgret=2"
+    },
+    {
+      "address": "埼玉県戸田市本町4-15-1　ビーンズ戸田公園 2F",
+      "id": "344",
+      "lat": 35.8081374,
+      "lng": 139.6769337,
+      "name": "ビーンズ戸田公園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=344&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市都筑区茅ケ崎中央5番1号　港北東急SC 1F",
+      "id": "318",
+      "lat": 35.5442223,
+      "lng": 139.5722386,
+      "name": "港北東急SC店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=318&pgret=2"
+    },
+    {
+      "address": "東京都豊島区西池袋1-11-1　ルミネ池袋 7F",
+      "id": "499",
+      "lat": 35.7289678,
+      "lng": 139.7096039,
+      "name": "ルミネ池袋店",
+      "sales": [],
+      "services": ["酒類取扱", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=499&pgret=2"
+    },
+    {
+      "address": "兵庫県加古川市加古川町寺家町269-1　ニッケパークタウン ミーツテラス 1F",
+      "id": "439",
+      "lat": 34.7713507,
+      "lng": 134.8348536,
+      "name": "ニッケパークタウン加古川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=439&pgret=2"
+    },
+    {
+      "address": "東京都豊島区東池袋3-1-3　ワールドインポートマートビル　サンシャインシティアルタ 1F",
+      "id": "582",
+      "lat": 35.7287124,
+      "lng": 139.7199392,
+      "name": "サンシャインシティアルタ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=582&pgret=2"
+    },
+    {
+      "address": "東京都大田区大森北2-13-1　イトーヨーカドー大森 1F",
+      "id": "450",
+      "lat": 35.5865027,
+      "lng": 139.73311,
+      "name": "イトーヨーカドー大森店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=450&pgret=2"
+    },
+    {
+      "address": "青森県上北郡おいらせ町中野平40-1　イオンモール下田 1F",
+      "id": "118",
+      "lat": 40.6013379,
+      "lng": 141.4201098,
+      "name": "イオンモール下田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=118&pgret=2"
+    },
+    {
+      "address": "静岡県浜松市中央区天王町字諏訪1981-3　イオンモール浜松市野 1F",
+      "id": "073",
+      "lat": 34.7401405,
+      "lng": 137.762808,
+      "name": "イオンモール浜松市野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=073&pgret=2"
+    },
+    {
+      "address": "香川県綾歌郡綾川町萱原822-1　イオンモール綾川 1F",
+      "id": "153",
+      "lat": 34.2513381,
+      "lng": 133.9317487,
+      "name": "綾川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=153&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市東区東浜1-1-1　ゆめタウン博多 1F",
+      "id": "295",
+      "lat": 33.6117163,
+      "lng": 130.411996,
+      "name": "ゆめタウン博多店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=295&pgret=2"
+    },
+    {
+      "address": "兵庫県明石市二見町西二見駅前1-18　イトーヨーカドー明石 1F",
+      "id": "420",
+      "lat": 34.7055654,
+      "lng": 134.8784188,
+      "name": "イトーヨーカドー明石店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=420&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市北区梅田3-1-3　ルクア イーレ 2F",
+      "id": "375",
+      "lat": 34.7027213,
+      "lng": 135.4946018,
+      "name": "ルクア イーレ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=375&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市戸塚区品濃町 537-1　西武東戸塚S.C. 7F",
+      "id": "206",
+      "lat": 35.4302799,
+      "lng": 139.558611,
+      "name": "西武東戸塚S.C.店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=206&pgret=2"
+    },
+    {
+      "address": "神奈川県平塚市天沼10-1　ららぽーと湘南平塚 1F",
+      "id": "412",
+      "lat": 35.3364041,
+      "lng": 139.3551211,
+      "name": "ららぽーと湘南平塚店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=412&pgret=2"
+    },
+    {
+      "address": "新潟県上越市西本町3-8-8　直江津ショッピングセンター 2F",
+      "id": "519",
+      "lat": 37.170833,
+      "lng": 138.2376546,
+      "name": "直江津店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=519&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市西区二方町40番　mozo ワンダーシティ 1F",
+      "id": "551",
+      "lat": 35.2249675,
+      "lng": 136.8840617,
+      "name": "mozo ワンダーシティ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=551&pgret=2"
+    },
+    {
+      "address": "長野県岡谷市銀座1-1-5　レイクウォーク岡谷 1F",
+      "id": "409",
+      "lat": 36.0660727,
+      "lng": 138.0519914,
+      "name": "レイクウォーク岡谷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=409&pgret=2"
+    },
+    {
+      "address": "福島県郡山市燧田195　エスパル郡山 2F",
+      "id": "464",
+      "lat": 37.3991942,
+      "lng": 140.3885812,
+      "name": "エスパル郡山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=464&pgret=2"
+    },
+    {
+      "address": "静岡県静岡市清水区入船町13-15　エスパルスドリームプラザ 1F",
+      "id": "296",
+      "lat": 35.0106111,
+      "lng": 138.4928236,
+      "name": "エスパルスドリームプラザ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=296&pgret=2"
+    },
+    {
+      "address": "東京都江東区豊洲2-4-9　アーバンドック ららぽーと豊洲 1F",
+      "id": "315",
+      "lat": 35.6556632,
+      "lng": 139.7924528,
+      "name": "ららぽーと豊洲店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=315&pgret=2"
+    },
+    {
+      "address": "滋賀県蒲生郡竜王町大字薬師字砂山1178-694　三井アウトレットパーク 滋賀竜王 1F",
+      "id": "204",
+      "lat": 35.0586919,
+      "lng": 136.0995553,
+      "name": "三井アウトレットパーク 滋賀竜王店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=204&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市泉区ゆめが丘31　ゆめが丘ソラトス1 1F",
+      "id": "585",
+      "lat": 35.4050059,
+      "lng": 139.4825715,
+      "name": "ゆめが丘ソラトス店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=585&pgret=2"
+    },
+    {
+      "address": "東京都渋谷区桜丘町1-4　渋谷サクラステージ SHIBUYAサイド 2F",
+      "id": "583",
+      "lat": 35.657108,
+      "lng": 139.7019654,
+      "name": "渋谷サクラステージ店",
+      "sales": [],
+      "services": ["酒類取扱", "カフェ併設"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=583&pgret=2"
+    },
+    {
+      "address": "愛知県知多郡東浦町大字緒川旭13-2　イオンモール東浦 1F",
+      "id": "498",
+      "lat": 34.9788501,
+      "lng": 136.9741412,
+      "name": "イオンモール東浦店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=498&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市鶴見区鶴見4-17-1　イオンモール鶴見緑地 1F",
+      "id": "103",
+      "lat": 34.703696,
+      "lng": 135.5669251,
+      "name": "イオンモール鶴見緑地店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=103&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市熱田区六野1-2-11　イオンモール熱田 1F",
+      "id": "039",
+      "lat": 35.1363408,
+      "lng": 136.9095078,
+      "name": "熱田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=039&pgret=2"
+    },
+    {
+      "address": "神奈川県厚木市泉町1-1　本厚木ミロード1 B1F",
+      "id": "014",
+      "lat": 35.4397113,
+      "lng": 139.3639091,
+      "name": "本厚木ミロード店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=014&pgret=2"
+    },
+    {
+      "address": "東京都江戸川区西葛西6-17-3　マリンクス・NSビル 1F",
+      "id": "249",
+      "lat": 35.663355,
+      "lng": 139.8594893,
+      "name": "西葛西店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=249&pgret=2"
+    },
+    {
+      "address": "東京都立川市曙町2-1-1　ルミネ立川 B1F",
+      "id": "466",
+      "lat": 35.6983742,
+      "lng": 139.4149855,
+      "name": "ルミネ立川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=466&pgret=2"
+    },
+    {
+      "address": "兵庫県姫路市駅前町188-1　グランフェスタ 2番街",
+      "id": "408",
+      "lat": 34.8278336,
+      "lng": 134.6912515,
+      "name": "グランフェスタ姫路店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=408&pgret=2"
+    },
+    {
+      "address": "佐賀県佐賀市兵庫北5-14-1　ゆめタウン佐賀 1F",
+      "id": "222",
+      "lat": 33.2752779,
+      "lng": 130.3081512,
+      "name": "ゆめタウン佐賀店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=222&pgret=2"
+    },
+    {
+      "address": "東京都豊島区南池袋1-29-1　池袋ショッピングパーク B1F",
+      "id": "245",
+      "lat": 35.7303116,
+      "lng": 139.7127036,
+      "name": "池袋ショッピングパーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=245&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市中央区三宮町1-5-29　まるみやビル B1F",
+      "id": "308",
+      "lat": 34.6919235,
+      "lng": 135.1941465,
+      "name": "三宮店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=308&pgret=2"
+    },
+    {
+      "address": "東京都大田区西蒲田7-68-1　グランデュオ蒲田 西館 2F",
+      "id": "599",
+      "lat": 35.5625834,
+      "lng": 139.7156725,
+      "name": "グランデュオ蒲田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=599&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市麻生区上麻生1-4-1　新百合ヶ丘エルミロード B1F",
+      "id": "586",
+      "lat": 35.6032408,
+      "lng": 139.5091817,
+      "name": "新百合ヶ丘エルミロード店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=586&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市博多区博多駅中央街9-1　博多マルイ 2F",
+      "id": "552",
+      "lat": 33.5888851,
+      "lng": 130.4194522,
+      "name": "博多マルイ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=552&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市西区橋本2-27-2　木の葉モール橋本 1F",
+      "id": "234",
+      "lat": 33.5554473,
+      "lng": 130.3218234,
+      "name": "木の葉モール橋本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=234&pgret=2"
+    },
+    {
+      "address": "東京都葛飾区亀有3-49-3　アリオ亀有 1F",
+      "id": "083",
+      "lat": 35.7644551,
+      "lng": 139.8525919,
+      "name": "アリオ亀有店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=083&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市青葉区一番町3-1-24　山一商店ビル 1F",
+      "id": "207",
+      "lat": 38.2606666,
+      "lng": 140.8741303,
+      "name": "仙台おおまち店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=207&pgret=2"
+    },
+    {
+      "address": "東京都目黒区自由が丘1-6-9　フレル・ウィズ自由が丘 2F",
+      "id": "240",
+      "lat": 35.6077341,
+      "lng": 139.6703218,
+      "name": "フレル・ウィズ自由が丘店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=240&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市緑区長津田みなみ台4-7-1　カエデウォーク長津田 1F",
+      "id": "141",
+      "lat": 35.5185971,
+      "lng": 139.499005,
+      "name": "カエデウォーク長津田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=141&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市中央区天神2丁目 地下1号011号　天神地下街東11番街",
+      "id": "274",
+      "lat": 33.5882253,
+      "lng": 130.4011014,
+      "name": "天神地下街店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=274&pgret=2"
+    },
+    {
+      "address": "新潟県長岡市千秋2-278　リバーサイド千秋 1F",
+      "id": "115",
+      "lat": 37.4606687,
+      "lng": 138.8267039,
+      "name": "千秋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=115&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市港北区師岡町700　トレッサ横浜 南棟 1F",
+      "id": "146",
+      "lat": 35.5254349,
+      "lng": 139.6457832,
+      "name": "トレッサ横浜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=146&pgret=2"
+    },
+    {
+      "address": "長野県松本市中央4-9-51　イオンモール松本 晴庭 1F",
+      "id": "442",
+      "lat": 36.2340258,
+      "lng": 137.9782749,
+      "name": "イオンモール松本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=442&pgret=2"
+    },
+    {
+      "address": "東京都江東区亀戸5-1-1　アトレ亀戸 1F",
+      "id": "588",
+      "lat": 35.6977655,
+      "lng": 139.8264978,
+      "name": "アトレ亀戸店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=588&pgret=2"
+    },
+    {
+      "address": "千葉県印西市原1-2　ビッグホップガーデンモール印西 1F",
+      "id": "124",
+      "lat": 35.8026014,
+      "lng": 140.1626599,
+      "name": "印西牧の原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=124&pgret=2"
+    },
+    {
+      "address": "茨城県ひたちなか市新光町35　ニューポートひたちなかファッションクルーズ 2F",
+      "id": "090",
+      "lat": 36.4065494,
+      "lng": 140.5850685,
+      "name": "ひたちなか店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=090&pgret=2"
+    },
+    {
+      "address": "東京都渋谷区道玄坂1-12-1　渋谷マークシティ B1F　渋谷 東急フードショー",
+      "id": "523",
+      "lat": 35.6581085,
+      "lng": 139.6986263,
+      "name": "渋谷 東急フードショー店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=523&pgret=2"
+    },
+    {
+      "address": "愛知県愛知郡東郷町　東郷中央土地区画整理事業　62街区1・3 1F",
+      "id": "522",
+      "lat": 35.0956962,
+      "lng": 137.0519601,
+      "name": "ららぽーと愛知東郷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=522&pgret=2"
+    },
+    {
+      "address": "千葉県船橋市本町7-1-1　東武百貨店 船橋店 2F",
+      "id": "554",
+      "lat": 35.7014332,
+      "lng": 139.9865615,
+      "name": "船橋東武店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=554&pgret=2"
+    },
+    {
+      "address": "長崎県長崎市尾上町1-1　アミュプラザ長崎 1F",
+      "id": "471",
+      "lat": 32.7513778,
+      "lng": 129.8696636,
+      "name": "アミュプラザ長崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=471&pgret=2"
+    },
+    {
+      "address": "鹿児島県鹿児島市中央町1-1　アミュプラザ鹿児島 B1F",
+      "id": "100",
+      "lat": 31.5845666,
+      "lng": 130.5422397,
+      "name": "アミュプラザ鹿児島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=100&pgret=2"
+    },
+    {
+      "address": "青森県五所川原市大字唐笠柳字藤巻517-1　ELM 1F",
+      "id": "044",
+      "lat": 40.7986093,
+      "lng": 140.4542465,
+      "name": "五所川原エルム店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=044&pgret=2"
+    },
+    {
+      "address": "埼玉県越谷市レイクタウン3-1-1　イオンレイクタウンmori 1F",
+      "id": "155",
+      "lat": 35.882039,
+      "lng": 139.828022,
+      "name": "イオンレイクタウン店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=155&pgret=2"
+    },
+    {
+      "address": "愛媛県新居浜市前田町8-8　イオンモール新居浜 1F",
+      "id": "256",
+      "lat": 33.9543472,
+      "lng": 133.2680939,
+      "name": "イオンモール新居浜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=256&pgret=2"
+    },
+    {
+      "address": "東京都武蔵野市吉祥寺本町1-11-5　コピス吉祥寺 A館 B1F",
+      "id": "297",
+      "lat": 35.7049688,
+      "lng": 139.5792396,
+      "name": "コピス吉祥寺店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=297&pgret=2"
+    },
+    {
+      "address": "岐阜県本巣市三橋1100　モレラ岐阜 1F",
+      "id": "298",
+      "lat": 35.4569564,
+      "lng": 136.6719476,
+      "name": "モレラ岐阜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=298&pgret=2"
+    },
+    {
+      "address": "北海道帯広市西4条南20-1　イオン帯広 1F",
+      "id": "368",
+      "lat": 42.9086977,
+      "lng": 143.2003169,
+      "name": "イオン帯広店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=368&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市兵庫区中之島2-1-1　イオンモール神戸南 1F",
+      "id": "441",
+      "lat": 34.6657191,
+      "lng": 135.17459,
+      "name": "イオンモール神戸南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=441&pgret=2"
+    },
+    {
+      "address": "東京都練馬区東大泉1-28-1　グランエミオ大泉学園 2F",
+      "id": "576",
+      "lat": 35.7493712,
+      "lng": 139.5876254,
+      "name": "グランエミオ大泉学園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=576&pgret=2"
+    },
+    {
+      "address": "愛知県安城市桜井町城向2-9-36　アピタ安城南 1F",
+      "id": "096",
+      "lat": 34.9196733,
+      "lng": 137.0875665,
+      "name": "安城南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=096&pgret=2"
+    },
+    {
+      "address": "神奈川県小田原市中里296-1　ダイナシティイーストモール 1F",
+      "id": "350",
+      "lat": 35.2817163,
+      "lng": 139.1885976,
+      "name": "ダイナシティイースト店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=350&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区成城6-5-34　成城コルティ 2F",
+      "id": "600",
+      "lat": 35.6399571,
+      "lng": 139.5985999,
+      "name": "成城コルティ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=600&pgret=2"
+    },
+    {
+      "address": "東京都江東区木場1-5-30　イトーヨーカドー木場 1F",
+      "id": "434",
+      "lat": 35.665584,
+      "lng": 139.8046592,
+      "name": "イトーヨーカドー木場店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=434&pgret=2"
+    },
+    {
+      "address": "広島県呉市宝町5-10　ゆめタウン呉 1F",
+      "id": "410",
+      "lat": 34.24235,
+      "lng": 132.5563638,
+      "name": "ゆめタウン呉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=410&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市中央区笹丘1-28-74　イオンスタイル笹丘B1F",
+      "id": "411",
+      "lat": 33.5650283,
+      "lng": 130.3773559,
+      "name": "イオンスタイル笹丘店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=411&pgret=2"
+    },
+    {
+      "address": "埼玉県鴻巣市本町1-1-2　エルミこうのすショッピングモール 1F",
+      "id": "521",
+      "lat": 36.0598631,
+      "lng": 139.5097652,
+      "name": "エルミこうのすショッピングモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=521&pgret=2"
+    },
+    {
+      "address": "千葉県八千代市緑が丘2-1-3　イオンモール八千代緑が丘 2F",
+      "id": "067",
+      "lat": 35.7278679,
+      "lng": 140.0731698,
+      "name": "イオンモール八千代緑が丘店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=067&pgret=2"
+    },
+    {
+      "address": "北海道札幌市中央区北8条西14-28　イオン札幌桑園SC 1F",
+      "id": "216",
+      "lat": 43.06942370000001,
+      "lng": 141.3333659,
+      "name": "札幌桑園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=216&pgret=2"
+    },
+    {
+      "address": "大阪府守口市大日東町1-18　イオンモール大日 1F",
+      "id": "095",
+      "lat": 34.749439,
+      "lng": 135.580529,
+      "name": "イオンモール大日店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=095&pgret=2"
+    },
+    {
+      "address": "東京都練馬区光が丘5-1-1　光が丘IMA 1F",
+      "id": "053",
+      "lat": 35.7598,
+      "lng": 139.6282818,
+      "name": "光が丘IMA店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=053&pgret=2"
+    },
+    {
+      "address": "栃木県宇都宮市陽東6-2-1　ベルモール 1F",
+      "id": "059",
+      "lat": 36.5560767,
+      "lng": 139.9290374,
+      "name": "宇都宮ベルモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=059&pgret=2"
+    },
+    {
+      "address": "大分県大分市公園通り西2-1　パークプレイス大分 1F",
+      "id": "212",
+      "lat": 33.195179,
+      "lng": 131.657365,
+      "name": "パークプレイス大分店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=212&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市青葉区美しが丘1-1-2　たまプラーザ テラス ゲートプラザ 1F",
+      "id": "213",
+      "lat": 35.5776101,
+      "lng": 139.5588895,
+      "name": "たまプラーザ テラス店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=213&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市戸塚区戸塚町16-1　　東急プラザ戸塚 1F",
+      "id": "383",
+      "lat": 35.4009676,
+      "lng": 139.5332226,
+      "name": "東急プラザ戸塚店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=383&pgret=2"
+    },
+    {
+      "address": "長野県須坂市大字福島386-1　イオンモール須坂 1F",
+      "id": "601",
+      "lat": 36.63952620000001,
+      "lng": 138.2729484,
+      "name": "イオンモール須坂店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=601&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市⻘葉区堤通⾬宮町1−1　イオンモール仙台上杉 1F",
+      "id": "602",
+      "lat": 38.2759425,
+      "lng": 140.8724127,
+      "name": "イオンモール仙台上杉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=602&pgret=2"
+    },
+    {
+      "address": "千葉県柏市柏1-2-26　柏モディ 1F",
+      "id": "416",
+      "lat": 35.8604542,
+      "lng": 139.9707201,
+      "name": "柏モディ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=416&pgret=2"
+    },
+    {
+      "address": "奈良県北葛城郡上牧町ささゆり台1-1-1　ラスパ西大和 1F",
+      "id": "348",
+      "lat": 34.5669571,
+      "lng": 135.7216319,
+      "name": "ラスパ西大和店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=348&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区用賀4-11-13　近藤ビル 1F",
+      "id": "363",
+      "lat": 35.6275875,
+      "lng": 139.6335136,
+      "name": "用賀店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=363&pgret=2"
+    },
+    {
+      "address": "埼玉県春日部市南1-1-1　ララガーデン春日部 1F",
+      "id": "134",
+      "lat": 35.9773367,
+      "lng": 139.7553744,
+      "name": "春日部店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=134&pgret=2"
+    },
+    {
+      "address": "兵庫県尼崎市潮江1-3-1　あまがさきキューズモール 1F",
+      "id": "182",
+      "lat": 34.7337076,
+      "lng": 135.4307267,
+      "name": "あまがさきキューズモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=182&pgret=2"
+    },
+    {
+      "address": "埼玉県川越市新富町1-16-6　ジョイセブンビル 1F",
+      "id": "179",
+      "lat": 35.9143586,
+      "lng": 139.4832364,
+      "name": "川越店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=179&pgret=2"
+    },
+    {
+      "address": "東京都武蔵村山市榎1-1-3　イオンモールむさし村山 1F",
+      "id": "180",
+      "lat": 35.7463874,
+      "lng": 139.3848642,
+      "name": "イオンモールむさし村山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=180&pgret=2"
+    },
+    {
+      "address": "埼玉県久喜市菖蒲町菖蒲6005番地1　モラージュ菖蒲 1F",
+      "id": "165",
+      "lat": 36.075725,
+      "lng": 139.6103484,
+      "name": "菖蒲店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=165&pgret=2"
+    },
+    {
+      "address": "岐阜県各務原市那加萱場町3-8　イオンモール各務原 1F",
+      "id": "122",
+      "lat": 35.3924558,
+      "lng": 136.8232036,
+      "name": "各務原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=122&pgret=2"
+    },
+    {
+      "address": "大阪府泉南市りんくう南浜3-12　イオンモールりんくう泉南 1F",
+      "id": "060",
+      "lat": 34.3808022,
+      "lng": 135.2679406,
+      "name": "イオンモールりんくう泉南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=060&pgret=2"
+    },
+    {
+      "address": "群馬県太田市石原町81　イオンモール太田 1F",
+      "id": "046",
+      "lat": 36.29411,
+      "lng": 139.4005458,
+      "name": "太田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=046&pgret=2"
+    },
+    {
+      "address": "東京都杉並区阿佐谷南1-34-11",
+      "id": "312",
+      "lat": 35.7017148,
+      "lng": 139.636551,
+      "name": "阿佐ヶ谷南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=312&pgret=2"
+    },
+    {
+      "address": "山口県下松市南花岡6-8-1　サンリブ下松 1F",
+      "id": "327",
+      "lat": 34.030963,
+      "lng": 131.8651291,
+      "name": "サンリブ下松店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=327&pgret=2"
+    },
+    {
+      "address": "広島県広島市中区宝町2-1　フジグラン広島 1F",
+      "id": "253",
+      "lat": 34.386023,
+      "lng": 132.464332,
+      "name": "フジグラン広島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=253&pgret=2"
+    },
+    {
+      "address": "三重県鈴鹿市庄野羽山4-1-2　イオンモール鈴鹿 1F",
+      "id": "259",
+      "lat": 34.8718394,
+      "lng": 136.5312794,
+      "name": "イオンモール鈴鹿店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=259&pgret=2"
+    },
+    {
+      "address": "東京都大田区北千束1-51-6　サンルミナス 1F",
+      "id": "262",
+      "lat": 35.6081955,
+      "lng": 139.6852459,
+      "name": "大岡山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=262&pgret=2"
+    },
+    {
+      "address": "東京都墨田区押上1-1-2　東京スカイツリータウン・ソラマチ 2F",
+      "id": "288",
+      "lat": 35.7102333,
+      "lng": 139.8115747,
+      "name": "東京ソラマチ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=288&pgret=2"
+    },
+    {
+      "address": "神奈川県海老名市扇町13-1　ららぽーと海老名 1F",
+      "id": "385",
+      "lat": 35.455878,
+      "lng": 139.3893156,
+      "name": "ららぽーと海老名店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=385&pgret=2"
+    },
+    {
+      "address": "静岡県沼津市東椎路字東荒301-3　ららぽーと沼津 1F",
+      "id": "501",
+      "lat": 35.148904,
+      "lng": 138.774821,
+      "name": "ららぽーと沼津店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=501&pgret=2"
+    },
+    {
+      "address": "富山県富山市婦中町下轡田165-1　ファボーレ 1F",
+      "id": "502",
+      "lat": 36.6626418,
+      "lng": 137.1714773,
+      "name": "ファボーレ富山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=502&pgret=2"
+    },
+    {
+      "address": "千葉県市原市ちはら台西3-4　ユニモちはら台 1F",
+      "id": "589",
+      "lat": 35.52793510000001,
+      "lng": 140.1716978,
+      "name": "ユニモちはら台店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=589&pgret=2"
+    },
+    {
+      "address": "大阪府四條畷市砂4-3-2　イオンモール四條畷 1F",
+      "id": "546",
+      "lat": 34.7460071,
+      "lng": 135.6293587,
+      "name": "イオンモール四條畷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=546&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市港区港明2-3-2　ららぽーと名古屋みなとアクルス 1F",
+      "id": "472",
+      "lat": 35.1092578,
+      "lng": 136.8827588,
+      "name": "ららぽーと名古屋みなとアクルス店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=472&pgret=2"
+    },
+    {
+      "address": "茨城県つくば市研究学園5-19　イーアスつくば 1F",
+      "id": "160",
+      "lat": 36.0864047,
+      "lng": 140.0839981,
+      "name": "イーアスつくば店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=160&pgret=2"
+    },
+    {
+      "address": "岐阜県大垣市林町6-80-21-111　アクアウォーク大垣 1F",
+      "id": "129",
+      "lat": 35.3698817,
+      "lng": 136.6172999,
+      "name": "アクアウォーク大垣店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=129&pgret=2"
+    },
+    {
+      "address": "東京都府中市宮町1-41-1　フォーリス 1F",
+      "id": "056",
+      "lat": 35.670809,
+      "lng": 139.4793537,
+      "name": "府中フォーリス店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=056&pgret=2"
+    },
+    {
+      "address": "福岡県北九州市八幡東区東田3-2-102　イオンモール八幡東 2F",
+      "id": "102",
+      "lat": 33.8695677,
+      "lng": 130.8116334,
+      "name": "イオンモール八幡東店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=102&pgret=2"
+    },
+    {
+      "address": "埼玉県戸田市美女木東1-3-1　イオンモール北戸田 1F",
+      "id": "061",
+      "lat": 35.8263372,
+      "lng": 139.6528514,
+      "name": "北戸田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=061&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市神奈川区金港町1-10　横浜ベイクォーター 3F",
+      "id": "181",
+      "lat": 35.4666247,
+      "lng": 139.6266006,
+      "name": "横浜ベイクォーター店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=181&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区経堂2-1-33　経堂コルティ 2F",
+      "id": "468",
+      "lat": 35.6513616,
+      "lng": 139.6356064,
+      "name": "経堂コルティ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=468&pgret=2"
+    },
+    {
+      "address": "神奈川県鎌倉市小町1-5-27　カトレヤビル 1F",
+      "id": "421",
+      "lat": 35.3190316,
+      "lng": 139.5515899,
+      "name": "鎌倉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=421&pgret=2"
+    },
+    {
+      "address": "愛知県春日井市六軒屋町東丘22　イーアス春日井 １F",
+      "id": "541",
+      "lat": 35.2590566,
+      "lng": 136.9827573,
+      "name": "イーアス春日井店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=541&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市東灘区岡本1-8-6",
+      "id": "555",
+      "lat": 34.72769510000001,
+      "lng": 135.2757253,
+      "name": "神戸岡本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=555&pgret=2"
+    },
+    {
+      "address": "三重県伊勢市小木町字曽袮538番地　イオンタウン伊勢ララパーク 1F",
+      "id": "189",
+      "lat": 34.5064944,
+      "lng": 136.7225296,
+      "name": "イオンタウン伊勢ララパーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=189&pgret=2"
+    },
+    {
+      "address": "岩手県盛岡市本宮7-1-1　イオンモール盛岡南 1F",
+      "id": "093",
+      "lat": 39.6834723,
+      "lng": 141.1285162,
+      "name": "イオンモール盛岡南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=093&pgret=2"
+    },
+    {
+      "address": "福岡県福津市日蒔野6-16-1　イオンモール福津 1F",
+      "id": "283",
+      "lat": 33.75341,
+      "lng": 130.4941102,
+      "name": "イオンモール福津店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=283&pgret=2"
+    },
+    {
+      "address": "富山県高岡市下伏間江383　イオンモール高岡 1F",
+      "id": "260",
+      "lat": 36.7234858,
+      "lng": 137.0169294,
+      "name": "イオンモール高岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=260&pgret=2"
+    },
+    {
+      "address": "広島県広島市安佐南区緑井1-5-2　フジグラン緑井 1F",
+      "id": "320",
+      "lat": 34.4663528,
+      "lng": 132.4764108,
+      "name": "フジグラン緑井店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=320&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市南区大橋1-5-1　レイリア大橋 2F",
+      "id": "463",
+      "lat": 33.5590592,
+      "lng": 130.4266831,
+      "name": "レイリア大橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=463&pgret=2"
+    },
+    {
+      "address": "北海道札幌市清田区平岡3条5-3-1　　イオンモール札幌平岡 1F",
+      "id": "417",
+      "lat": 42.9964282,
+      "lng": 141.4577971,
+      "name": "イオンモール札幌平岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=417&pgret=2"
+    },
+    {
+      "address": "兵庫県宝塚市栄町2-1-1　宝塚阪急 2F",
+      "id": "556",
+      "lat": 34.8098754,
+      "lng": 135.3420104,
+      "name": "宝塚阪急店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=556&pgret=2"
+    },
+    {
+      "address": "沖縄県那覇市おもろまち4-4-9　サンエー那覇メインプレイス 1F",
+      "id": "310",
+      "lat": 26.2252975,
+      "lng": 127.6948569,
+      "name": "サンエー那覇店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=310&pgret=2"
+    },
+    {
+      "address": "大阪府豊中市緑丘4-1　イオンタウン豊中緑丘 1F",
+      "id": "099",
+      "lat": 34.8120925,
+      "lng": 135.4785034,
+      "name": "豊中緑丘店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=099&pgret=2"
+    },
+    {
+      "address": "秋田県秋田市御所野地蔵田1-1-1　イオンモール秋田 1F",
+      "id": "075",
+      "lat": 39.664032,
+      "lng": 140.160383,
+      "name": "イオンモール秋田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=075&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市太白区長町7-20-5　ララガーデン長町 1F",
+      "id": "184",
+      "lat": 38.2251949,
+      "lng": 140.8758928,
+      "name": "ララガーデン長町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=184&pgret=2"
+    },
+    {
+      "address": "東京都板橋区仲宿60番13号　ブルックサイド 1F",
+      "id": "286",
+      "lat": 35.7533702,
+      "lng": 139.7094953,
+      "name": "板橋区役所前店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=286&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市旭区二俣川1-3-2　ジョイナステラス3 3F",
+      "id": "577",
+      "lat": 35.4639344,
+      "lng": 139.5324026,
+      "name": "ジョイナステラス二俣川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=577&pgret=2"
+    },
+    {
+      "address": "東京都中央区八重洲2-1 北1号　ヤエチカ",
+      "id": "404",
+      "lat": 35.6802223,
+      "lng": 139.7692184,
+      "name": "ヤエチカ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=404&pgret=2"
+    },
+    {
+      "address": "千葉県松戸市八ヶ崎2丁目8-1　テラスモール松戸 1F",
+      "id": "503",
+      "lat": 35.8177631,
+      "lng": 139.9340556,
+      "name": "テラスモール松戸店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=503&pgret=2"
+    },
+    {
+      "address": "福島県いわき市小名浜字辰巳町79番地　イオンモールいわき小名浜 2F",
+      "id": "467",
+      "lat": 36.9464511,
+      "lng": 140.9069115,
+      "name": "イオンモールいわき小名浜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=467&pgret=2"
+    },
+    {
+      "address": "埼玉県草加市氷川町1970 VARIE2",
+      "id": "475",
+      "lat": 35.8290301,
+      "lng": 139.8035206,
+      "name": "草加ヴァリエ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=475&pgret=2"
+    },
+    {
+      "address": "香川県高松市三条町608-1　ゆめタウン高松 1F",
+      "id": "386",
+      "lat": 34.316774,
+      "lng": 134.0419589,
+      "name": "ゆめタウン高松店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=386&pgret=2"
+    },
+    {
+      "address": "東京都目黒区鷹番2-19-20",
+      "id": "269",
+      "lat": 35.6288969,
+      "lng": 139.6861761,
+      "name": "学芸大学店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=269&pgret=2"
+    },
+    {
+      "address": "福岡県久留米市新合川1-2-1　ゆめタウン久留米 1F",
+      "id": "311",
+      "lat": 33.3217507,
+      "lng": 130.5385284,
+      "name": "ゆめタウン久留米店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=311&pgret=2"
+    },
+    {
+      "address": "東京都足立区千住橋戸町1番地13　ポンテポルタ千住 1F",
+      "id": "366",
+      "lat": 35.7424055,
+      "lng": 139.7954427,
+      "name": "ポンテポルタ千住店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=366&pgret=2"
+    },
+    {
+      "address": "京都府京都市南区久世高田町376番1　イオンモール京都桂川 1F",
+      "id": "370",
+      "lat": 34.9615264,
+      "lng": 135.708523,
+      "name": "イオンモール京都桂川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=370&pgret=2"
+    },
+    {
+      "address": "東京都大田区大森北1-6-16　アトレ大森 1F",
+      "id": "354",
+      "lat": 35.5885839,
+      "lng": 139.728378,
+      "name": "大森店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=354&pgret=2"
+    },
+    {
+      "address": "新潟県新潟市江南区下早通柳田1-1-1　イオンモール新潟亀田インター 1F",
+      "id": "130",
+      "lat": 37.8761383,
+      "lng": 139.0813455,
+      "name": "イオンモール新潟亀田インター店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=130&pgret=2"
+    },
+    {
+      "address": "群馬県高崎市棟高町1400番地　イオンモール高崎 1F",
+      "id": "097",
+      "lat": 36.3906591,
+      "lng": 139.0068085,
+      "name": "イオンモール高崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=097&pgret=2"
+    },
+    {
+      "address": "兵庫県西宮市甲子園八番町1-100　ららぽーと甲子園 1F",
+      "id": "062",
+      "lat": 34.716872,
+      "lng": 135.3639949,
+      "name": "甲子園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=062&pgret=2"
+    },
+    {
+      "address": "千葉県習志野市津田沼1-23-1　イオンモール津田沼 1F",
+      "id": "043",
+      "lat": 35.6902778,
+      "lng": 140.025,
+      "name": "イオンモール津田沼店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=043&pgret=2"
+    },
+    {
+      "address": "静岡県静岡市葵区鷹匠1-1-1　新静岡セノバ B1F",
+      "id": "255",
+      "lat": 34.9755194,
+      "lng": 138.3871332,
+      "name": "新静岡セノバ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=255&pgret=2"
+    },
+    {
+      "address": "神奈川県横須賀市若松町2-30　横須賀モアーズシティ B1F",
+      "id": "126",
+      "lat": 35.2781886,
+      "lng": 139.6702489,
+      "name": "横須賀店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=126&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市東区香椎浜3-12-1　イオンモール香椎浜 1F",
+      "id": "112",
+      "lat": 33.6570988,
+      "lng": 130.4298255,
+      "name": "香椎浜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=112&pgret=2"
+    },
+    {
+      "address": "埼玉県川口市宮町18-9　ララガーデン川口 1F",
+      "id": "162",
+      "lat": 35.8038681,
+      "lng": 139.6977937,
+      "name": "ララガーデン川口店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=162&pgret=2"
+    },
+    {
+      "address": "東京都東久留米市野火止1-3-3　東久留米SC QURUNE 1F",
+      "id": "186",
+      "lat": 35.7594717,
+      "lng": 139.5115566,
+      "name": "クルネ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=186&pgret=2"
+    },
+    {
+      "address": "石川県かほく市内日角タ25　イオンモールかほく 1F",
+      "id": "159",
+      "lat": 36.7088738,
+      "lng": 136.7015129,
+      "name": "かほく店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=159&pgret=2"
+    },
+    {
+      "address": "兵庫県姫路市大津区大津町2-5　イオンモール姫路大津 1F",
+      "id": "063",
+      "lat": 34.8065322,
+      "lng": 134.6066826,
+      "name": "イオンモール姫路大津店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=063&pgret=2"
+    },
+    {
+      "address": "千葉県船橋市浜町2-1-1　ららぽーとTOKYO-BAY 西館 1Ｆ",
+      "id": "026",
+      "lat": 35.6872736,
+      "lng": 139.9877584,
+      "name": "ららぽーとTOKYO-BAY店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=026&pgret=2"
+    },
+    {
+      "address": "奈良県生駒市鹿畑町3027番地　イオンモール奈良登美ヶ丘 1F",
+      "id": "091",
+      "lat": 34.7257094,
+      "lng": 135.7502423,
+      "name": "奈良登美ヶ丘店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=091&pgret=2"
+    },
+    {
+      "address": "茨城県水戸市内原2-1　イオンモール水戸内原 1F",
+      "id": "078",
+      "lat": 36.37454,
+      "lng": 140.3594193,
+      "name": "イオンモール水戸内原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=078&pgret=2"
+    },
+    {
+      "address": "神奈川県藤沢市辻堂神台1-3-1　テラスモール湘南 1F",
+      "id": "263",
+      "lat": 35.33867360000001,
+      "lng": 139.447184,
+      "name": "テラスモール湘南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=263&pgret=2"
+    },
+    {
+      "address": "岐阜県岐阜市柳津町丸野3-3-6　カラフルタウン岐阜 1F",
+      "id": "264",
+      "lat": 35.3623333,
+      "lng": 136.7304531,
+      "name": "カラフルタウン岐阜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=264&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市緑区元徳重1-505　ヒルズウォーク徳重ガーデンズ 1F",
+      "id": "217",
+      "lat": 35.0943115,
+      "lng": 136.999292,
+      "name": "徳重ガーデンズ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=217&pgret=2"
+    },
+    {
+      "address": "千葉県市原市更級4-3-2　アリオ市原 1F",
+      "id": "353",
+      "lat": 35.5080656,
+      "lng": 140.1014345,
+      "name": "アリオ市原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=353&pgret=2"
+    },
+    {
+      "address": "滋賀県彦根市竹ヶ鼻町43-1　ビバシティ彦根 1F",
+      "id": "349",
+      "lat": 35.2443683,
+      "lng": 136.2498192,
+      "name": "ビバシティ彦根店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=349&pgret=2"
+    },
+    {
+      "address": "福岡県北九州市小倉北区魚町2-2-11 　第35エルザビル 1F",
+      "id": "309",
+      "lat": 33.8832315,
+      "lng": 130.8796199,
+      "name": "小倉魚町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=309&pgret=2"
+    },
+    {
+      "address": "岡山県岡山市南区築港新町1-18-5　天満屋ハピータウン岡南店 1F",
+      "id": "316",
+      "lat": 34.603959,
+      "lng": 133.940989,
+      "name": "岡南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=316&pgret=2"
+    },
+    {
+      "address": "山口県山口市大内千坊六丁目9-1　ゆめタウン山口 1F",
+      "id": "387",
+      "lat": 34.1603847,
+      "lng": 131.4913446,
+      "name": "ゆめタウン山口店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=387&pgret=2"
+    },
+    {
+      "address": "東京都立川市泉町935-1　ららぽーと立川立飛 1F",
+      "id": "393",
+      "lat": 35.71253859999999,
+      "lng": 139.4161691,
+      "name": "ららぽーと立川立飛店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=393&pgret=2"
+    },
+    {
+      "address": "神奈川県大和市下鶴間1-2-1　イオンモール大和 1F",
+      "id": "427",
+      "lat": 35.4889251,
+      "lng": 139.457929,
+      "name": "大和オークシティ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=427&pgret=2"
+    },
+    {
+      "address": "三重県四日市市泊小柳町4-5-1　イオンタウン四日市泊 1F",
+      "id": "506",
+      "lat": 34.93899469999999,
+      "lng": 136.6013075,
+      "name": "イオンタウン四日市泊店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=506&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市福島区海老江1-1-23　ウイステ 1F",
+      "id": "525",
+      "lat": 34.6951871,
+      "lng": 135.4755402,
+      "name": "ウイステ野田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=525&pgret=2"
+    },
+    {
+      "address": "群馬県高崎市八島町46-1　高崎オーパ2F",
+      "id": "540",
+      "lat": 36.3230668,
+      "lng": 139.0110952,
+      "name": "高崎オーパ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=540&pgret=2"
+    },
+    {
+      "address": "北海道札幌市東区北7条東9-2-20　アリオ札幌 1F",
+      "id": "079",
+      "lat": 43.0711702,
+      "lng": 141.3702553,
+      "name": "アリオ札幌店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=079&pgret=2"
+    },
+    {
+      "address": "東京都北区赤羽1-1-1　ビーンズ赤羽",
+      "id": "038",
+      "lat": 35.7786268,
+      "lng": 139.720309,
+      "name": "ビーンズ赤羽店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=038&pgret=2"
+    },
+    {
+      "address": "東京都杉並区荻窪5-30-5",
+      "id": "007",
+      "lat": 35.7038836,
+      "lng": 139.6216449,
+      "name": "荻窪店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=007&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市大宮区吉敷町4-267-2　コクーンシティ コクーン1　1F",
+      "id": "058",
+      "lat": 35.8947622,
+      "lng": 139.6359535,
+      "name": "コクーンシティ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=058&pgret=2"
+    },
+    {
+      "address": "大阪府堺市美原区黒山22-1　ららぽーと堺 1F",
+      "id": "557",
+      "lat": 34.5407535,
+      "lng": 135.5602519,
+      "name": "ららぽーと堺店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=557&pgret=2"
+    },
+    {
+      "address": "愛知県丹羽郡扶桑町大字南山名高塚5‐1　イオンモール扶桑1F",
+      "id": "542",
+      "lat": 35.3613913,
+      "lng": 136.9000008,
+      "name": "イオンモール扶桑店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=542&pgret=2"
+    },
+    {
+      "address": "東京都江戸川区東葛西9-3-3　アリオ葛西 1F",
+      "id": "452",
+      "lat": 35.6524646,
+      "lng": 139.882162,
+      "name": "アリオ葛西店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=452&pgret=2"
+    },
+    {
+      "address": "静岡県浜松市浜名区貴布祢1200　プレ葉ウォーク浜北内 1F",
+      "id": "166",
+      "lat": 34.7976728,
+      "lng": 137.7794985,
+      "name": "浜北店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=166&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市港南区上大岡西1-6-1　京急ショッピングプラザ ウィング上大岡 B1F",
+      "id": "346",
+      "lat": 35.4079542,
+      "lng": 139.5961507,
+      "name": "ウィング上大岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=346&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区上馬3丁目18-7　KOMAZAWA Park Quarter 2F",
+      "id": "603",
+      "lat": 35.632683,
+      "lng": 139.661869,
+      "name": "駒沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=603&pgret=2"
+    },
+    {
+      "address": "大阪府吹田市千里万博公園2-1　　ららぽーとEXPOCITY 1F",
+      "id": "388",
+      "lat": 34.805489,
+      "lng": 135.5344665,
+      "name": "ららぽーとEXPOCITY店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=388&pgret=2"
+    },
+    {
+      "address": "千葉県市川市市川1-1-1　シャポー市川 1F",
+      "id": "494",
+      "lat": 35.7291078,
+      "lng": 139.9082595,
+      "name": "シャポー市川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=494&pgret=2"
+    },
+    {
+      "address": "北海道札幌市西区発寒8条12-1　イオンモール札幌発寒 1F",
+      "id": "098",
+      "lat": 43.0960621,
+      "lng": 141.2775757,
+      "name": "イオンモール札幌発寒店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=098&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区北沢2-25-19　ピアザ近江屋ビル 1F",
+      "id": "077",
+      "lat": 35.6622394,
+      "lng": 139.6674313,
+      "name": "下北沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=077&pgret=2"
+    },
+    {
+      "address": "徳島県板野郡藍住町奥野字東中須88-1　ゆめタウン徳島 1Ｆ",
+      "id": "266",
+      "lat": 34.1193643,
+      "lng": 134.5011324,
+      "name": "ゆめタウン徳島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=266&pgret=2"
+    },
+    {
+      "address": "大阪府高槻市城北町2-1-18　エミル高槻 1F",
+      "id": "526",
+      "lat": 34.8493919,
+      "lng": 135.6223965,
+      "name": "エミル高槻店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=526&pgret=2"
+    },
+    {
+      "address": "東京都町田市鶴間3-3-1　グランベリーパーク ステーションコート 1F",
+      "id": "504",
+      "lat": 35.5082744,
+      "lng": 139.471544,
+      "name": "グランベリーパーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=504&pgret=2"
+    },
+    {
+      "address": "東京都武蔵野市境南町2-2-20　イトーヨーカドー武蔵境 東館 1F",
+      "id": "496",
+      "lat": 35.7009994,
+      "lng": 139.5458221,
+      "name": "イトーヨーカドー武蔵境店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=496&pgret=2"
+    },
+    {
+      "address": "東京都江戸川区南小岩7-24-15　シャポー小岩　B1F",
+      "id": "113",
+      "lat": 35.7330349,
+      "lng": 139.8818105,
+      "name": "シャポー小岩店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=113&pgret=2"
+    },
+    {
+      "address": "岡山県倉敷市寿町12番2号　アリオ倉敷 1F",
+      "id": "268",
+      "lat": 34.6036374,
+      "lng": 133.7645434,
+      "name": "アリオ倉敷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=268&pgret=2"
+    },
+    {
+      "address": "奈良県大和郡山市下三橋町741　イオンモール大和郡山 1F",
+      "id": "196",
+      "lat": 34.6510685,
+      "lng": 135.802269,
+      "name": "イオンモール大和郡山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=196&pgret=2"
+    },
+    {
+      "address": "埼玉県熊谷市銀座2-245　ショッピングセンターニットーモール 1F",
+      "id": "326",
+      "lat": 36.1388412,
+      "lng": 139.3937792,
+      "name": "ニットーモール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=326&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市瀬谷区三ツ境2-19　相鉄ライフ三ツ境 2F",
+      "id": "479",
+      "lat": 35.4680457,
+      "lng": 139.5029262,
+      "name": "相鉄ライフ三ツ境店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=479&pgret=2"
+    },
+    {
+      "address": "三重県津市高茶屋小森町145　イオンモール津南 1F",
+      "id": "476",
+      "lat": 34.67100360000001,
+      "lng": 136.5179167,
+      "name": "イオンモール津南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=476&pgret=2"
+    },
+    {
+      "address": "神奈川県茅ヶ崎市元町1-1　ラスカ茅ヶ崎 1F",
+      "id": "391",
+      "lat": 35.3305661,
+      "lng": 139.4062218,
+      "name": "ラスカ茅ヶ崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=391&pgret=2"
+    },
+    {
+      "address": "石川県金沢市木ノ新保町1-1　金沢百番街 Rinto",
+      "id": "398",
+      "lat": 36.5790508,
+      "lng": 136.6487085,
+      "name": "金沢百番街Rinto店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=398&pgret=2"
+    },
+    {
+      "address": "愛知県春日井市中央台2-5　アピタ高蔵寺 1F",
+      "id": "443",
+      "lat": 35.282838,
+      "lng": 137.048875,
+      "name": "アピタ高蔵寺店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=443&pgret=2"
+    },
+    {
+      "address": "埼玉県深谷市上柴町西4-2-14　アリオ深谷 1F",
+      "id": "208",
+      "lat": 36.1813859,
+      "lng": 139.2988512,
+      "name": "深谷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=208&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市港南区港南台3-1-3　港南台バーズ 1F",
+      "id": "218",
+      "lat": 35.3745704,
+      "lng": 139.5775316,
+      "name": "港南台バーズ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=218&pgret=2"
+    },
+    {
+      "address": "福岡県行橋市西宮市3-8-1　ゆめタウン行橋 1F",
+      "id": "284",
+      "lat": 33.7202318,
+      "lng": 130.9675778,
+      "name": "ゆめタウン行橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=284&pgret=2"
+    },
+    {
+      "address": "岡山県倉敷市水江1番地 　イオンモール倉敷 1F",
+      "id": "252",
+      "lat": 34.6031429,
+      "lng": 133.7462133,
+      "name": "イオンモール倉敷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=252&pgret=2"
+    },
+    {
+      "address": "広島県安芸郡府中町大須2-1-1　イオンモール広島府中 1F",
+      "id": "050",
+      "lat": 34.3943796,
+      "lng": 132.4993651,
+      "name": "イオンモール広島府中店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=050&pgret=2"
+    },
+    {
+      "address": "千葉県柏市若柴175　ららぽーと柏の葉 1F",
+      "id": "104",
+      "lat": 35.8939975,
+      "lng": 139.9512925,
+      "name": "ららぽーと柏の葉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=104&pgret=2"
+    },
+    {
+      "address": "大阪府八尾市光町2-3　アリオ八尾 1F",
+      "id": "107",
+      "lat": 34.6324874,
+      "lng": 135.6057956,
+      "name": "八尾店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=107&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区松原3-29-20　下高井戸ESビル 1F",
+      "id": "004",
+      "lat": 35.666355,
+      "lng": 139.641512,
+      "name": "下高井戸店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=004&pgret=2"
+    },
+    {
+      "address": "愛知県岡崎市戸崎町字外山38-5　イオンモール岡崎 1F",
+      "id": "167",
+      "lat": 34.9378095,
+      "lng": 137.1642606,
+      "name": "岡崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=167&pgret=2"
+    },
+    {
+      "address": "滋賀県草津市新浜町300　イオンモール草津 1F",
+      "id": "163",
+      "lat": 34.9980046,
+      "lng": 135.9123457,
+      "name": "草津店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=163&pgret=2"
+    },
+    {
+      "address": "鹿児島県鹿児島市東開町7 　イオンモール鹿児島 1F",
+      "id": "127",
+      "lat": 31.5285189,
+      "lng": 130.5302751,
+      "name": "イオンモール鹿児島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=127&pgret=2"
+    },
+    {
+      "address": "埼玉県川口市前川1-1-11　イオンモール川口前川 1F",
+      "id": "136",
+      "lat": 35.8331868,
+      "lng": 139.7071534,
+      "name": "イオンモール川口前川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=136&pgret=2"
+    },
+    {
+      "address": "東京都西多摩郡日の出町大字平井字三吉野桜木237-3　イオンモール日の出 1F",
+      "id": "137",
+      "lat": 35.7344247,
+      "lng": 139.2749441,
+      "name": "日の出店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=137&pgret=2"
+    },
+    {
+      "address": "群馬県伊勢崎市西小保方町368番地　スマーク伊勢崎 1F",
+      "id": "261",
+      "lat": 36.3392953,
+      "lng": 139.2324035,
+      "name": "スマーク伊勢崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=261&pgret=2"
+    },
+    {
+      "address": "愛媛県松山市宮西1-2-1　フジグラン松山 1F",
+      "id": "214",
+      "lat": 33.844919,
+      "lng": 132.753061,
+      "name": "フジグラン松山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=214&pgret=2"
+    },
+    {
+      "address": "京都府京都市伏見区新町4-451-1　マスジビル 1F",
+      "id": "321",
+      "lat": 34.9328091,
+      "lng": 135.7636169,
+      "name": "伏見桃山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=321&pgret=2"
+    },
+    {
+      "address": "長崎県佐世保市新港町2番1号　させぼ五番街プロムナード東ゾーン 1F",
+      "id": "352",
+      "lat": 33.1653044,
+      "lng": 129.7229561,
+      "name": "させぼ五番街店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=352&pgret=2"
+    },
+    {
+      "address": "千葉県千葉市美浜区豊砂1-5　イオンモール幕張新都心 エキマエ 1F",
+      "id": "358",
+      "lat": 35.6563011,
+      "lng": 140.026947,
+      "name": "イオンモール幕張新都心店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=358&pgret=2"
+    },
+    {
+      "address": "大阪府和泉市あゆみ野4-4-7　ららぽーと和泉 2F",
+      "id": "371",
+      "lat": 34.4377098,
+      "lng": 135.4482991,
+      "name": "ららぽーと和泉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=371&pgret=2"
+    },
+    {
+      "address": "東京都中野区中野3-34-28　中野マルイ 2F",
+      "id": "446",
+      "lat": 35.7046872,
+      "lng": 139.6650995,
+      "name": "中野マルイ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=446&pgret=2"
+    },
+    {
+      "address": "新潟県新潟市西区小新5-7-21　アピタ新潟西 1F",
+      "id": "447",
+      "lat": 37.8810593,
+      "lng": 139.003089,
+      "name": "アピタ新潟西店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=447&pgret=2"
+    },
+    {
+      "address": "愛知県常滑市りんくう町2-20-3　イオンモール常滑 1F",
+      "id": "392",
+      "lat": 34.8829778,
+      "lng": 136.8263207,
+      "name": "イオンモール常滑店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=392&pgret=2"
+    },
+    {
+      "address": "千葉県成田市東町133番地　イオンタウン成田富里 1F",
+      "id": "389",
+      "lat": 35.77793339999999,
+      "lng": 140.3226795,
+      "name": "イオンタウン成田富里店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=389&pgret=2"
+    },
+    {
+      "address": "北海道江別市牧場町14-1　江別 蔦屋書店　食の棟内",
+      "id": "478",
+      "lat": 43.1149257,
+      "lng": 141.5396189,
+      "name": "江別 蔦屋書店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=478&pgret=2"
+    },
+    {
+      "address": "東京都品川区東五反田2-1-2　 五反田東急スクエア 3F",
+      "id": "524",
+      "lat": 35.6254976,
+      "lng": 139.7245702,
+      "name": "五反田東急スクエア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=524&pgret=2"
+    },
+    {
+      "address": "埼玉県入間市宮寺3169-1　三井アウトレットパーク 入間 1F",
+      "id": "149",
+      "lat": 35.8103454,
+      "lng": 139.3802642,
+      "name": "三井アウトレットパーク 入間店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=149&pgret=2"
+    },
+    {
+      "address": "埼玉県越谷市千間台西1-67　せんげん台トスカ 2F",
+      "id": "013",
+      "lat": 35.9357832,
+      "lng": 139.774256,
+      "name": "せんげん台トスカ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=013&pgret=2"
+    },
+    {
+      "address": "東京都目黒区上目黒2-1-3　中目黒GTプラザ 1F",
+      "id": "028",
+      "lat": 35.6431863,
+      "lng": 139.6986787,
+      "name": "中目黒店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=028&pgret=2"
+    },
+    {
+      "address": "宮崎県宮崎市新別府町江口862-1　イオンモール宮崎 1F",
+      "id": "071",
+      "lat": 31.9230574,
+      "lng": 131.455185,
+      "name": "イオンモール宮崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=071&pgret=2"
+    },
+    {
+      "address": "静岡県富士市鮫島118-10　イオンタウン富士南 1F",
+      "id": "138",
+      "lat": 35.1409266,
+      "lng": 138.6752,
+      "name": "富士南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=138&pgret=2"
+    },
+    {
+      "address": "福岡県筑紫野市立明寺434-1　イオンモール筑紫野 1F",
+      "id": "168",
+      "lat": 33.481517,
+      "lng": 130.5276451,
+      "name": "イオンモール筑紫野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=168&pgret=2"
+    },
+    {
+      "address": "山形県山形市若宮3-7-8 　イオンモール山形南 1F",
+      "id": "231",
+      "lat": 38.2266622,
+      "lng": 140.3060975,
+      "name": "山形南店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=231&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市西区糀台5-9-4　エキソアレ西神中央 1F",
+      "id": "604",
+      "lat": 34.7187939,
+      "lng": 135.017612,
+      "name": "エキソアレ西神中央店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=604&pgret=2"
+    },
+    {
+      "address": "奈良県奈良市西大寺東町2-4-1 近鉄百貨店 奈良店 2F（ならファミリー内）",
+      "id": "558",
+      "lat": 34.6948564,
+      "lng": 135.7850567,
+      "name": "近鉄奈良店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=558&pgret=2"
+    },
+    {
+      "address": "北海道函館市石川町85-1　函館 蔦屋書店 1F",
+      "id": "418",
+      "lat": 41.83067399999999,
+      "lng": 140.735661,
+      "name": "函館 蔦屋書店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=418&pgret=2"
+    },
+    {
+      "address": "神奈川県相模原市緑区大山町1-22　アリオ橋本 アリオモール 1F",
+      "id": "210",
+      "lat": 35.591149,
+      "lng": 139.349718,
+      "name": "アリオ橋本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=210&pgret=2"
+    },
+    {
+      "address": "東京都台東区上野7-1-1　アトレ上野 B1F",
+      "id": "123",
+      "lat": 35.7122244,
+      "lng": 139.7754787,
+      "name": "上野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=123&pgret=2"
+    },
+    {
+      "address": "千葉県我孫子市我孫子4-11-1　あびこショッピングプラザ 1F",
+      "id": "377",
+      "lat": 35.8765842,
+      "lng": 140.0089294,
+      "name": "あびこショッピングプラザ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=377&pgret=2"
+    },
+    {
+      "address": "茨城県稲敷市西代1480　MEGAドン・キホーテUNY佐原東 1F",
+      "id": "305",
+      "lat": 35.9185478,
+      "lng": 140.4881748,
+      "name": "MEGAドン・キホーテUNY 佐原東店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=305&pgret=2"
+    },
+    {
+      "address": "愛知県長久手市勝入塚501番地　イオンモール長久手 1F",
+      "id": "422",
+      "lat": 35.1733666,
+      "lng": 137.0506999,
+      "name": "イオンモール長久手店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=422&pgret=2"
+    },
+    {
+      "address": "長崎県長崎市浜町4-11　ハマクロス411 1F",
+      "id": "424",
+      "lat": 32.74406,
+      "lng": 129.8780792,
+      "name": "長崎浜町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=424&pgret=2"
+    },
+    {
+      "address": "東京都杉並区西荻北3-20-1　NKスクエア 1F",
+      "id": "483",
+      "lat": 35.7042214,
+      "lng": 139.6004623,
+      "name": "西荻窪店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=483&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市港北区綱島東4-3-17　アピタテラス横浜綱島 1F",
+      "id": "458",
+      "lat": 35.5423973,
+      "lng": 139.6418458,
+      "name": "アピタテラス横浜綱島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=458&pgret=2"
+    },
+    {
+      "address": "北海道札幌市白石区東札幌3条2-1　イオン東札幌 1Ｆ",
+      "id": "414",
+      "lat": 43.0522268,
+      "lng": 141.3854021,
+      "name": "イオン東札幌店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=414&pgret=2"
+    },
+    {
+      "address": "沖縄県うるま市江洲450ｰ1　サンエー具志川メインシティ 1F",
+      "id": "590",
+      "lat": 26.3527289,
+      "lng": 127.8256907,
+      "name": "サンエー具志川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=590&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市垂水区小束山手2-2-1　BRANCH神戸学園都市 1F",
+      "id": "356",
+      "lat": 34.6728646,
+      "lng": 135.0614997,
+      "name": "ブランチ神戸学園都市店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=356&pgret=2"
+    },
+    {
+      "address": "京都府城陽市富野荒見田112番地　アル・プラザ城陽 1F",
+      "id": "285",
+      "lat": 34.8424535,
+      "lng": 135.7860807,
+      "name": "アル・プラザ城陽店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=285&pgret=2"
+    },
+    {
+      "address": "大阪府寝屋川市日新町5番5号　アル・プラザ香里園 1F",
+      "id": "258",
+      "lat": 34.7832356,
+      "lng": 135.6229394,
+      "name": "アル・プラザ香里園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=258&pgret=2"
+    },
+    {
+      "address": "高知県高知市南御座90-1　高知 蔦屋書店 1F",
+      "id": "481",
+      "lat": 33.5666871,
+      "lng": 133.5630225,
+      "name": "高知 蔦屋書店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=481&pgret=2"
+    },
+    {
+      "address": "東京都品川区戸越1-15-20　ベルファース戸越スタティオ 1F",
+      "id": "190",
+      "lat": 35.6154038,
+      "lng": 139.7170276,
+      "name": "戸越銀座店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=190&pgret=2"
+    },
+    {
+      "address": "東京都渋谷区恵比寿南1-5-5　アトレ恵比寿 4F",
+      "id": "461",
+      "lat": 35.6470185,
+      "lng": 139.709775,
+      "name": "【2026/1/14（水）～ 一時休業】アトレ恵比寿店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=461&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区玉川3-17-1　玉川髙島屋S.C. 南館 B1F",
+      "id": "505",
+      "lat": 35.6131827,
+      "lng": 139.6264798,
+      "name": "玉川髙島屋S.C.店",
+      "sales": [],
+      "services": ["酒類取扱", "カフェ併設", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=505&pgret=2"
+    },
+    {
+      "address": "千葉県木更津市金田東3-1-1　三井アウトレットパーク 木更津 1F",
+      "id": "474",
+      "lat": 35.4355861,
+      "lng": 139.9346386,
+      "name": "三井アウトレットパーク 木更津店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=474&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市中央区難波5-1-60　なんばCITY本館 1F",
+      "id": "567",
+      "lat": 34.6639784,
+      "lng": 135.5015554,
+      "name": "なんばCITY店",
+      "sales": [],
+      "services": ["酒類取扱", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=567&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市千種区千代田橋2-1-1　アピタ千代田橋 1F",
+      "id": "357",
+      "lat": 35.1872635,
+      "lng": 136.9692887,
+      "name": "アピタ千代田橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=357&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市中央区本町西5-2-9　イオンモール与野 1F",
+      "id": "064",
+      "lat": 35.89107449999999,
+      "lng": 139.615208,
+      "name": "イオンモール与野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=064&pgret=2"
+    },
+    {
+      "address": "福岡県飯塚市菰田西3-6-1　ゆめタウン飯塚 1F",
+      "id": "574",
+      "lat": 33.6320873,
+      "lng": 130.6850743,
+      "name": "ゆめタウン飯塚店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=574&pgret=2"
+    },
+    {
+      "address": "千葉県松戸市松戸1181　アトレ松戸 1F",
+      "id": "108",
+      "lat": 35.7851307,
+      "lng": 139.9005633,
+      "name": "アトレ松戸店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=108&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市天王寺区悲田院町10-48　天王寺ミオ プラザ館 B1F",
+      "id": "364",
+      "lat": 34.6471295,
+      "lng": 135.5137818,
+      "name": "天王寺ミオ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=364&pgret=2"
+    },
+    {
+      "address": "東京都小金井市本町5-1-20　nonowa武蔵小金井west",
+      "id": "394",
+      "lat": 35.7012611,
+      "lng": 139.5045016,
+      "name": "nonowa武蔵小金井店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=394&pgret=2"
+    },
+    {
+      "address": "千葉県市川市八幡2-17-1　　シャポー本八幡 1F",
+      "id": "437",
+      "lat": 35.7211516,
+      "lng": 139.9268001,
+      "name": "シャポー本八幡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=437&pgret=2"
+    },
+    {
+      "address": "東京都新宿区西新宿1-1-5　ルミネ新宿店　ルミネ1　 B2F",
+      "id": "510",
+      "lat": 35.6891816,
+      "lng": 139.6992916,
+      "name": "ルミネ新宿1店",
+      "sales": [],
+      "services": ["酒類取扱", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=510&pgret=2"
+    },
+    {
+      "address": "東京都武蔵野市吉祥寺南町1-1-24　アトレ吉祥寺東館 B1F",
+      "id": "592",
+      "lat": 35.7031991,
+      "lng": 139.5809807,
+      "name": "アトレ吉祥寺東館店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=592&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市西区南幸1-4-B1　ジョイナス B1F",
+      "id": "373",
+      "lat": 35.4665091,
+      "lng": 139.6213955,
+      "name": "横浜ジョイナス店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=373&pgret=2"
+    },
+    {
+      "address": "神奈川県相模原市南区相模大野3-2-1　ボーノ相模大野ショッピングセンター 2F",
+      "id": "329",
+      "lat": 35.5308551,
+      "lng": 139.435036,
+      "name": "ボーノ相模大野店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=329&pgret=2"
+    },
+    {
+      "address": "東京都墨田区江東橋3-14-5　錦糸町テルミナ B1F",
+      "id": "243",
+      "lat": 35.6967089,
+      "lng": 139.8139741,
+      "name": "錦糸町テルミナ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=243&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区南烏山6-5-5　シルクロードAビル 1F",
+      "id": "198",
+      "lat": 35.6681341,
+      "lng": 139.599934,
+      "name": "千歳烏山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=198&pgret=2"
+    },
+    {
+      "address": "東京都江東区新砂3-4-31　南砂町SC SUNAMO 1F",
+      "id": "156",
+      "lat": 35.6653072,
+      "lng": 139.8351728,
+      "name": "スナモ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=156&pgret=2"
+    },
+    {
+      "address": "熊本県熊本市中央区桜町3-10　SAKURA MACHI Kumamoto B1F",
+      "id": "500",
+      "lat": 32.8001831,
+      "lng": 130.7038171,
+      "name": "サクラマチ店",
+      "sales": [],
+      "services": ["酒類取扱", "Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=500&pgret=2"
+    },
+    {
+      "address": "宮崎県延岡市旭町2-2-1　イオン延岡ショッピングセンター 1F",
+      "id": "459",
+      "lat": 32.5723427,
+      "lng": 131.6700874,
+      "name": "イオン延岡ショッピングセンター店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=459&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市金沢区能見台東3-1　イトーヨーカドー能見台 1F",
+      "id": "482",
+      "lat": 35.3586959,
+      "lng": 139.6270188,
+      "name": "イトーヨーカドー能見台店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=482&pgret=2"
+    },
+    {
+      "address": "東京都大田区西糀谷4-13-19",
+      "id": "448",
+      "lat": 35.5548126,
+      "lng": 139.729418,
+      "name": "糀谷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=448&pgret=2"
+    },
+    {
+      "address": "兵庫県西宮市高松町14-2　阪急西宮ガーデンズ 1F",
+      "id": "435",
+      "lat": 34.7439342,
+      "lng": 135.3598518,
+      "name": "阪急西宮ガーデンズ店（CAFE＆BAR併設）",
+      "sales": [],
+      "services": ["酒類取扱", "カフェ併設"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=435&pgret=2"
+    },
+    {
+      "address": "愛知県豊田市山之手8-92　メグリア本店",
+      "id": "395",
+      "lat": 35.0529508,
+      "lng": 137.145738,
+      "name": "メグリア本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=395&pgret=2"
+    },
+    {
+      "address": "愛媛県今治市にぎわい広場1番地1　イオンモール今治新都市 1F",
+      "id": "425",
+      "lat": 34.04378,
+      "lng": 132.9623783,
+      "name": "イオンモール今治新都市店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=425&pgret=2"
+    },
+    {
+      "address": "千葉県柏市柏1-1-1　JR柏駅中央口改札内",
+      "id": "407",
+      "lat": 35.8620653,
+      "lng": 139.9711693,
+      "name": "JR柏駅中央口店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=407&pgret=2"
+    },
+    {
+      "address": "大阪府枚方市岡東町19-1　枚方モール 1F",
+      "id": "587",
+      "lat": 34.8171054,
+      "lng": 135.6498465,
+      "name": "枚方モール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=587&pgret=2"
+    },
+    {
+      "address": "東京都渋谷区笹塚1-56-18　京王クラウン街笹塚",
+      "id": "032",
+      "lat": 35.6737486,
+      "lng": 139.6675524,
+      "name": "京王クラウン街笹塚店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=032&pgret=2"
+    },
+    {
+      "address": "東京都多摩市落合1-10-1　京王多摩センターSC １F",
+      "id": "270",
+      "lat": 35.625409,
+      "lng": 139.4244421,
+      "name": "京王多摩センター店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=270&pgret=2"
+    },
+    {
+      "address": "石川県白山市横江町5001番地　イオンモール白山1F",
+      "id": "539",
+      "lat": 36.5443371,
+      "lng": 136.5815283,
+      "name": "イオンモール白山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=539&pgret=2"
+    },
+    {
+      "address": "和歌山県和歌山市友田町5-18　和歌山ミオ 北館 1F",
+      "id": "399",
+      "lat": 34.2328027,
+      "lng": 135.1901954,
+      "name": "和歌山ミオ北館店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=399&pgret=2"
+    },
+    {
+      "address": "東京都大田区池上6-3-10　エトモ池上 3F",
+      "id": "532",
+      "lat": 35.5720483,
+      "lng": 139.7029907,
+      "name": "【2/16（月）閉店】エトモ池上店",
+      "sales": [],
+      "services": ["酒類取扱", "カフェ併設"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=532&pgret=2"
+    },
+    {
+      "address": "埼玉県上尾市愛宕3-8-1　イオンモール上尾 1F",
+      "id": "593",
+      "lat": 35.9652431,
+      "lng": 139.6005414,
+      "name": "イオンモール上尾店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=593&pgret=2"
+    },
+    {
+      "address": "千葉県浦安市北栄1-12ｰ12　M’av浦安",
+      "id": "596",
+      "lat": 35.6665324,
+      "lng": 139.8942346,
+      "name": "M’av浦安店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=596&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区桜新町1丁目13-7　キャメルビル 1F",
+      "id": "449",
+      "lat": 35.6314018,
+      "lng": 139.6438955,
+      "name": "桜新町店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=449&pgret=2"
+    },
+    {
+      "address": "沖縄県宜野湾市宇地泊3-6-1 サンエー宜野湾コンベンションシティ1F",
+      "id": "294",
+      "lat": 26.2748925,
+      "lng": 127.7298419,
+      "name": "サンエー宜野湾店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=294&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区梅丘1-20-14　シャトー梅ヶ丘 1F",
+      "id": "003",
+      "lat": 35.6550386,
+      "lng": 139.6541257,
+      "name": "梅ヶ丘店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=003&pgret=2"
+    },
+    {
+      "address": "愛知県一宮市木曽川町黒田字南八ツヶ池25-1　イオンモール木曽川 1F",
+      "id": "205",
+      "lat": 35.3492601,
+      "lng": 136.7737557,
+      "name": "イオンモール木曽川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=205&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市緑区鳴海町字伝治山3番地9　アピタ鳴海 1F",
+      "id": "343",
+      "lat": 35.0940493,
+      "lng": 136.9592243,
+      "name": "アピタ鳴海店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=343&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市西区みなとみらい3-5-1　MARK IS みなとみらい B1F",
+      "id": "340",
+      "lat": 35.4577445,
+      "lng": 139.631784,
+      "name": "マークイズみなとみらい店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=340&pgret=2"
+    },
+    {
+      "address": "東京都東大和市立野3-1344-1 　ザ・マーケットプレイス 東大和 1F",
+      "id": "341",
+      "lat": 35.7375198,
+      "lng": 139.4244247,
+      "name": "東大和店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=341&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市西区豊浜3-1-10 　イオンマリナタウン 2F",
+      "id": "280",
+      "lat": 33.5895301,
+      "lng": 130.3342194,
+      "name": "マリナタウン店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=280&pgret=2"
+    },
+    {
+      "address": "熊本県八代市建馬町3-1　ゆめタウン八代 1F",
+      "id": "438",
+      "lat": 32.5056954,
+      "lng": 130.5857436,
+      "name": "ゆめタウン八代店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=438&pgret=2"
+    },
+    {
+      "address": "大阪府堺市北区東浅香山町4-1-12　イオンモール堺北花田 1F",
+      "id": "465",
+      "lat": 34.5846349,
+      "lng": 135.5151253,
+      "name": "イオンモール堺北花田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=465&pgret=2"
+    },
+    {
+      "address": "京都府京都市山科区竹鼻竹ノ街道町91　ラクト山科ショッピングセンター 1F",
+      "id": "573",
+      "lat": 34.9908414,
+      "lng": 135.8168419,
+      "name": "ラクト山科ショッピングセンター店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=573&pgret=2"
+    },
+    {
+      "address": "東京都渋谷区恵比寿4-20-7　恵比寿ガーデンプレイス センタープラザ B2F",
+      "id": "544",
+      "lat": 35.6425523,
+      "lng": 139.7141706,
+      "name": "恵比寿ガーデンプレイス店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=544&pgret=2"
+    },
+    {
+      "address": "大阪府泉大津市東豊中町1-5-10　カナートモール和泉府中 1F",
+      "id": "492",
+      "lat": 34.4915928,
+      "lng": 135.4236073,
+      "name": "カナートモール和泉府中店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=492&pgret=2"
+    },
+    {
+      "address": "福岡県宗像市くりえいと1-5-1　サンリブくりえいと宗像 1F",
+      "id": "257",
+      "lat": 33.8120177,
+      "lng": 130.5637615,
+      "name": "サンリブくりえいと宗像店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=257&pgret=2"
+    },
+    {
+      "address": "宮崎県宮崎市大淀4-6-28　宮交シティ 1F",
+      "id": "307",
+      "lat": 31.89465539999999,
+      "lng": 131.419557,
+      "name": "宮交シティ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=307&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市青葉区中央1-1-1　エスパル仙台 本館 B1F",
+      "id": "128",
+      "lat": 38.2592214,
+      "lng": 140.8820344,
+      "name": "エスパル仙台店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=128&pgret=2"
+    },
+    {
+      "address": "東京都足立区西新井栄町1-20-1　アリオ西新井 1F",
+      "id": "133",
+      "lat": 35.7747794,
+      "lng": 139.7860369,
+      "name": "アリオ西新井店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=133&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市中村区名駅1-1-2　ゲートウォーク B1F",
+      "id": "488",
+      "lat": 35.170745,
+      "lng": 136.8833437,
+      "name": "名古屋ゲートウォーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=488&pgret=2"
+    },
+    {
+      "address": "東京都葛飾区東金町1-36-1　金町東急ストア 1F",
+      "id": "440",
+      "lat": 35.77046310000001,
+      "lng": 139.8703678,
+      "name": "金町東急ストア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=440&pgret=2"
+    },
+    {
+      "address": "埼玉県所沢市くすのき台1-14-5　グランエミオ所沢 1F",
+      "id": "453",
+      "lat": 35.7868311,
+      "lng": 139.4740386,
+      "name": "グランエミオ所沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=453&pgret=2"
+    },
+    {
+      "address": "京都府京都市左京区高野西開町36番地-9240　洛北阪急スクエア　B1F",
+      "id": "508",
+      "lat": 35.0410421,
+      "lng": 135.779204,
+      "name": "洛北阪急スクエア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=508&pgret=2"
+    },
+    {
+      "address": "大阪府箕面市西宿1-15-30　みのおキューズモール CENTER- 1F",
+      "id": "515",
+      "lat": 34.8330133,
+      "lng": 135.4894015,
+      "name": "みのおキューズモール店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-09",
+          "startDate": "2026-03-05",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=515&pgret=2"
+    },
+    {
+      "address": "東京都狛江市元和泉1-2-1　エコルマ1 B1F",
+      "id": "487",
+      "lat": 35.6332952,
+      "lng": 139.5782082,
+      "name": "Odakyu OX狛江店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-09",
+          "startDate": "2026-03-05",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=487&pgret=2"
+    },
+    {
+      "address": "神奈川県逗子市逗子1-6-27　ピアーズビル 1F",
+      "id": "454",
+      "lat": 35.2962055,
+      "lng": 139.5787524,
+      "name": "逗子店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-09",
+          "startDate": "2026-03-05",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=454&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市浦和区東高砂町11-1　浦和パルコ 2F",
+      "id": "396",
+      "lat": 35.8587007,
+      "lng": 139.6591572,
+      "name": "浦和パルコ店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-09",
+          "startDate": "2026-03-05",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=396&pgret=2"
+    },
+    {
+      "address": "千葉県千葉市中央区富士見2-25-1　C･one Aブロック内",
+      "id": "406",
+      "lat": 35.6112373,
+      "lng": 140.1155829,
+      "name": "C･one店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-09",
+          "startDate": "2026-03-05",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=406&pgret=2"
+    },
+    {
+      "address": "東京都品川区大井1-1-1　アトレ大井町2 2F",
+      "id": "223",
+      "lat": 35.6076511,
+      "lng": 139.7350499,
+      "name": "アトレ大井町2店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-09",
+          "startDate": "2026-03-05",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=223&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市都筑区中川中央1-31-1-0047　モザイクモール港北 B1F",
+      "id": "267",
+      "lat": 35.5554062,
+      "lng": 139.5781279,
+      "name": "モザイクモール港北店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-10",
+          "startDate": "2026-03-06",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=267&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市大宮区桜木町2-3　大宮マルイ 1F",
+      "id": "278",
+      "lat": 35.9070695,
+      "lng": 139.6222419,
+      "name": "大宮マルイ店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-10",
+          "startDate": "2026-03-06",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=278&pgret=2"
+    },
+    {
+      "address": "静岡県静岡市駿河区石田1-5-1　イオンセントラルスクエア静岡 1F",
+      "id": "275",
+      "lat": 34.9594709,
+      "lng": 138.4016259,
+      "name": "イオンセントラルスクエア静岡店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-10",
+          "startDate": "2026-03-06",
+          "status": "開催中",
+          "type": "オープンセール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=275&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市麻生区万福寺1-18-1　小田急マルシェ新百合ヶ丘 2F",
+      "id": "140",
+      "lat": 35.6038889,
+      "lng": 139.5075634,
+      "name": "小田急マルシェ新百合ヶ丘店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-10",
+          "startDate": "2026-03-06",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=140&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市東灘区御影中町3-2-1　御影クラッセ 1F",
+      "id": "144",
+      "lat": 34.7156076,
+      "lng": 135.2551555,
+      "name": "御影店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-10",
+          "startDate": "2026-03-06",
+          "status": "開催中",
+          "type": "お客様感謝セール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=144&pgret=2"
+    },
+    {
+      "address": "大阪府東大阪市長堂1-1-52　ロンモール布施 2F",
+      "id": "608",
+      "lat": 34.664133,
+      "lng": 135.5633983,
+      "name": "ロンモール布施店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "2026-03-10",
+          "startDate": "2026-03-06",
+          "status": "開催中",
+          "type": "オープンセール"
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=608&pgret=2"
+    },
+    {
+      "address": "東京都足立区千住3-92　北千住マルイ 1F",
+      "id": "048",
+      "lat": 35.7509424,
+      "lng": 139.8045682,
+      "name": "北千住マルイ店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=048&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市高津区溝口1-4-1　マルイファミリー溝口 2F",
+      "id": "008",
+      "lat": 35.5990287,
+      "lng": 139.612852,
+      "name": "マルイファミリー溝口店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=008&pgret=2"
+    },
+    {
+      "address": "広島県広島市南区皆実町2-8-17　ゆめタウン広島 1F",
+      "id": "139",
+      "lat": 34.37607270000001,
+      "lng": 132.463913,
+      "name": "ゆめタウン広島店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=139&pgret=2"
+    },
+    {
+      "address": "岐阜県岐阜市正木中1-2-1　マーサ21SC 1F",
+      "id": "151",
+      "lat": 35.4479708,
+      "lng": 136.7451141,
+      "name": "マーサ岐阜店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=151&pgret=2"
+    },
+    {
+      "address": "東京都調布市仙川町1-49-2　パール仙川 1F",
+      "id": "006",
+      "lat": 35.6612891,
+      "lng": 139.5857971,
+      "name": "仙川店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=006&pgret=2"
+    },
+    {
+      "address": "山口県下関市伊倉新町3-1-1　ゆめシティ 1F",
+      "id": "334",
+      "lat": 34.0063188,
+      "lng": 130.9336626,
+      "name": "ゆめシティ新下関店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=334&pgret=2"
+    },
+    {
+      "address": "石川県小松市清六町315番地　イオンモール新小松1Ｆ",
+      "id": "428",
+      "lat": 36.3949812,
+      "lng": 136.4670586,
+      "name": "イオンモール新小松店",
+      "sales": [
+        {
+          "detail": "オリジナルコーヒー豆 特別価格／商品店頭表示価格より10%OFF",
+          "endDate": "",
+          "startDate": "",
+          "status": "",
+          "type": ""
+        }
+      ],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=428&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市都島区東野田町2-1-38　京阪モール本館 1F",
+      "id": "431",
+      "lat": 34.69702150000001,
+      "lng": 135.5322149,
+      "name": "京阪モール店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=431&pgret=2"
+    },
+    {
+      "address": "京都府京田辺市山手中央2-2　フレスト松井山手店内",
+      "id": "486",
+      "lat": 34.832946,
+      "lng": 135.726787,
+      "name": "フレスト松井山手店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=486&pgret=2"
+    },
+    {
+      "address": "静岡県島田市宝来町8−2 アピタ島田 1F",
+      "id": "559",
+      "lat": 34.8277698,
+      "lng": 138.1849547,
+      "name": "アピタ島田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=559&pgret=2"
+    },
+    {
+      "address": "鹿児島県姶良市西餅田264-1　イオンタウン姶良　西街区 1F",
+      "id": "550",
+      "lat": 31.7320114,
+      "lng": 130.6265934,
+      "name": "イオンタウン姶良店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=550&pgret=2"
+    },
+    {
+      "address": "和歌山県和歌山市ふじと台23　イオンモール和歌山 1F",
+      "id": "360",
+      "lat": 34.2764951,
+      "lng": 135.1490504,
+      "name": "イオンモール和歌山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=360&pgret=2"
+    },
+    {
+      "address": "兵庫県伊丹市池尻4-1-1　イオンモール伊丹昆陽 1F",
+      "id": "225",
+      "lat": 34.7844888,
+      "lng": 135.3816692,
+      "name": "伊丹昆陽店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=225&pgret=2"
+    },
+    {
+      "address": "神奈川県相模原市緑区橋本3-28-1　ミウィ橋本 1F",
+      "id": "025",
+      "lat": 35.5950352,
+      "lng": 139.3459562,
+      "name": "ミウィ橋本店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=025&pgret=2"
+    },
+    {
+      "address": "埼玉県三郷市新三郷ららシティ3-1-1　ららぽーと新三郷 1F",
+      "id": "178",
+      "lat": 35.8597004,
+      "lng": 139.8657984,
+      "name": "ららぽーと新三郷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=178&pgret=2"
+    },
+    {
+      "address": "大阪府堺市西区鳳南町3-199-12　アリオ鳳 アリオモール 1F",
+      "id": "147",
+      "lat": 34.5245692,
+      "lng": 135.4592183,
+      "name": "鳳店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=147&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市泉区大沢1-5-1　イオンタウン仙台泉大沢 1F",
+      "id": "143",
+      "lat": 38.3498622,
+      "lng": 140.8815453,
+      "name": "仙台泉大沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=143&pgret=2"
+    },
+    {
+      "address": "埼玉県さいたま市南区別所7-12-1　ビーンズ武蔵浦和 2F",
+      "id": "169",
+      "lat": 35.8452874,
+      "lng": 139.6469427,
+      "name": "ビーンズ武蔵浦和店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=169&pgret=2"
+    },
+    {
+      "address": "千葉県銚子市三崎町2-2660-1　イオンモール銚子 1F",
+      "id": "193",
+      "lat": 35.7101017,
+      "lng": 140.7876079,
+      "name": "銚子店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=193&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市南区菊住1-7-10-101　イオンモール新瑞橋 1F",
+      "id": "191",
+      "lat": 35.1147395,
+      "lng": 136.9349509,
+      "name": "イオンモール新瑞橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=191&pgret=2"
+    },
+    {
+      "address": "東京都板橋区成増2-17-15　Landmark成増 1F",
+      "id": "185",
+      "lat": 35.7775485,
+      "lng": 139.6300044,
+      "name": "成増店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=185&pgret=2"
+    },
+    {
+      "address": "高知県高知市秦南町1-4-8　イオンモール高知 1F",
+      "id": "111",
+      "lat": 33.5762921,
+      "lng": 133.5422951,
+      "name": "イオンモール高知店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=111&pgret=2"
+    },
+    {
+      "address": "東京都豊島区南長崎4-5-20　iTerrace落合南長崎 2F",
+      "id": "279",
+      "lat": 35.7240608,
+      "lng": 139.682801,
+      "name": "アイテラス落合南長崎店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=279&pgret=2"
+    },
+    {
+      "address": "神奈川県藤沢市藤沢555　さいか屋藤沢 2F",
+      "id": "331",
+      "lat": 35.3398592,
+      "lng": 139.4870474,
+      "name": "さいか屋藤沢店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=331&pgret=2"
+    },
+    {
+      "address": "広島県広島市安佐南区祇園3-2-1　イオンモール広島祇園 1F",
+      "id": "543",
+      "lat": 34.4438649,
+      "lng": 132.4614543,
+      "name": "イオンモール広島祇園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=543&pgret=2"
+    },
+    {
+      "address": "鳥取県鳥取市晩稲348　イオンモール鳥取北 1F",
+      "id": "530",
+      "lat": 35.5237357,
+      "lng": 134.2010384,
+      "name": "イオンモール鳥取北店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=530&pgret=2"
+    },
+    {
+      "address": "宮城県宮城郡利府町新中道3-1-1　イオンモール新利府 1F",
+      "id": "527",
+      "lat": 38.3226226,
+      "lng": 140.972317,
+      "name": "イオンモール新利府店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=527&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市中央区元町通 1-4-11",
+      "id": "528",
+      "lat": 34.6886314,
+      "lng": 135.188971,
+      "name": "神戸元町一番街店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=528&pgret=2"
+    },
+    {
+      "address": "大阪府茨木市城の前町2-1　イオンタウン茨木太田 1F",
+      "id": "531",
+      "lat": 34.8427586,
+      "lng": 135.5741756,
+      "name": "イオンタウン茨木太田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=531&pgret=2"
+    },
+    {
+      "address": "大分県別府市楠町382-7　ゆめタウン別府 1Ｆ",
+      "id": "529",
+      "lat": 33.2762149,
+      "lng": 131.5075326,
+      "name": "ゆめタウン別府店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=529&pgret=2"
+    },
+    {
+      "address": "福井県福井市大和田2-1212 ラブリーパートナーエルパ1F",
+      "id": "511",
+      "lat": 36.0958275,
+      "lng": 136.2503961,
+      "name": "福井エルパ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=511&pgret=2"
+    },
+    {
+      "address": "千葉県市川市妙典4-1-1　イオン市川妙典2番街 1F",
+      "id": "609",
+      "lat": 35.6924597,
+      "lng": 139.9268112,
+      "name": "【3/20（金）オープン】イオン市川妙典店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=609&pgret=2"
+    },
+    {
+      "address": "愛知県西尾市高畠町3-23-9 　ヴェルサウォーク西尾 1F",
+      "id": "362",
+      "lat": 34.8632913,
+      "lng": 137.0595708,
+      "name": "ヴェルサウォーク西尾店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=362&pgret=2"
+    },
+    {
+      "address": "山梨県中巨摩郡昭和町飯喰1505-1　イオンモール甲府昭和 1F",
+      "id": "224",
+      "lat": 35.6227823,
+      "lng": 138.5271606,
+      "name": "イオンモール甲府昭和店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=224&pgret=2"
+    },
+    {
+      "address": "京都府京都市右京区西院追分町25-1-036　イオンモール京都五条 1F",
+      "id": "200",
+      "lat": 34.997204,
+      "lng": 135.7270583,
+      "name": "イオンモール京都五条店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=200&pgret=2"
+    },
+    {
+      "address": "東京都町田市原町田6-4-1　町田東急ツインズ EAST 1F",
+      "id": "227",
+      "lat": 35.5424335,
+      "lng": 139.4466132,
+      "name": "町田東急ツインズ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=227&pgret=2"
+    },
+    {
+      "address": "三重県桑名市新西方1-22　イオンモール桑名1番街 アンク専門店街 1F",
+      "id": "228",
+      "lat": 35.0719757,
+      "lng": 136.6629901,
+      "name": "桑名店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=228&pgret=2"
+    },
+    {
+      "address": "群馬県前橋市文京町2-1-1　けやきウォーク前橋 1F",
+      "id": "109",
+      "lat": 36.3791667,
+      "lng": 139.0780556,
+      "name": "けやきウォーク前橋店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=109&pgret=2"
+    },
+    {
+      "address": "福岡県福岡市西区北原1-2-1　イオンモール福岡伊都 1F",
+      "id": "088",
+      "lat": 33.5774351,
+      "lng": 130.2582809,
+      "name": "イオンモール福岡伊都店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=088&pgret=2"
+    },
+    {
+      "address": "福岡県糟屋郡粕屋町大字酒殿字老ノ木192-1　イオンモール福岡 1F",
+      "id": "054",
+      "lat": 33.5970724,
+      "lng": 130.480909,
+      "name": "イオンモール福岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=054&pgret=2"
+    },
+    {
+      "address": "神奈川県大和市中央林間4-12-1　中央林間東急スクエア 2F",
+      "id": "457",
+      "lat": 35.5073244,
+      "lng": 139.4458629,
+      "name": "中央林間東急スクエア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=457&pgret=2"
+    },
+    {
+      "address": "大阪府大阪市中央区森ノ宮中央2-1-70　もりのみやキューズモールBASE 1F",
+      "id": "413",
+      "lat": 34.6808908,
+      "lng": 135.5306511,
+      "name": "もりのみやキューズモールBASE店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=413&pgret=2"
+    },
+    {
+      "address": "新潟県新潟市中央区花園1-1-1　CoCoLo新潟 2F東",
+      "id": "580",
+      "lat": 37.9124911,
+      "lng": 139.0616422,
+      "name": "CoCoLo新潟店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=580&pgret=2"
+    },
+    {
+      "address": "広島県広島市南区松原町2-37　ミナモア 2F西",
+      "id": "594",
+      "lat": 34.3974123,
+      "lng": 132.4745842,
+      "name": "ミナモア広島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=594&pgret=2"
+    },
+    {
+      "address": "福岡県北九州市小倉南区上葛原2-14-1　サンリブシティ小倉 1F",
+      "id": "068",
+      "lat": 33.838486,
+      "lng": 130.9083115,
+      "name": "サンリブシティ小倉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=068&pgret=2"
+    },
+    {
+      "address": "山形県天童市芳賀タウン北四丁目1-1　イオンモール天童 専門店街 1F",
+      "id": "361",
+      "lat": 38.3472618,
+      "lng": 140.3656897,
+      "name": "イオンモール天童店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=361&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市川崎区駅前本町26-2　川崎アゼリア",
+      "id": "382",
+      "lat": 35.5305553,
+      "lng": 139.6984393,
+      "name": "川崎アゼリア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=382&pgret=2"
+    },
+    {
+      "address": "長崎県長崎市元船町10-1　ゆめタウン夢彩都 B1F",
+      "id": "232",
+      "lat": 32.7462626,
+      "lng": 129.8702534,
+      "name": "ゆめタウン夢彩都店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=232&pgret=2"
+    },
+    {
+      "address": "宮城県仙台市泉区泉中央1-4-1　セルバ 1F",
+      "id": "047",
+      "lat": 38.32358079999999,
+      "lng": 140.882302,
+      "name": "泉中央店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=047&pgret=2"
+    },
+    {
+      "address": "東京都杉並区浜田山3-34-27",
+      "id": "192",
+      "lat": 35.6825217,
+      "lng": 139.6270597,
+      "name": "浜田山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=192&pgret=2"
+    },
+    {
+      "address": "静岡県富士宮市浅間町1-8　イオンモール富士宮 1F",
+      "id": "195",
+      "lat": 35.2205657,
+      "lng": 138.6120372,
+      "name": "富士宮店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=195&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市緑区南大高2-450　イオンモール大高 1F",
+      "id": "145",
+      "lat": 35.0530773,
+      "lng": 136.9472724,
+      "name": "大高店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=145&pgret=2"
+    },
+    {
+      "address": "埼玉県羽生市川崎2-281-3　イオンモール羽生 1F",
+      "id": "131",
+      "lat": 36.144031,
+      "lng": 139.5384733,
+      "name": "羽生店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=131&pgret=2"
+    },
+    {
+      "address": "埼玉県春日部市下柳420-1　イオンモール春日部 1F",
+      "id": "578",
+      "lat": 35.9880769,
+      "lng": 139.7886173,
+      "name": "イオンモール春日部店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=578&pgret=2"
+    },
+    {
+      "address": "東京都多摩市 関戸1-10-1　京王聖蹟桜ヶ丘SC B館 2F",
+      "id": "513",
+      "lat": 35.65125640000001,
+      "lng": 139.4470771,
+      "name": "京王聖蹟桜ヶ丘SC店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=513&pgret=2"
+    },
+    {
+      "address": "千葉県成田市ウイング土屋24　イオンモール成田 1F",
+      "id": "490",
+      "lat": 35.7955745,
+      "lng": 140.3187065,
+      "name": "イオンモール成田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=490&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市都筑区池辺町4035-1　三井ショッピングパーク ららぽーと横浜 1F",
+      "id": "110",
+      "lat": 35.517467,
+      "lng": 139.5665435,
+      "name": "ららぽーと横浜店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=110&pgret=2"
+    },
+    {
+      "address": "福岡県大野城市錦町4-1-1　イオン大野城SC 1F",
+      "id": "230",
+      "lat": 33.5379197,
+      "lng": 130.4755799,
+      "name": "イオン大野城SC店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=230&pgret=2"
+    },
+    {
+      "address": "東京都新宿区西新宿1-5-1　小田急百貨店新宿店 地下2階",
+      "id": "330",
+      "lat": 35.6924713,
+      "lng": 139.6987349,
+      "name": "小田急百貨店新宿店",
+      "sales": [],
+      "services": ["Tax Free"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=330&pgret=2"
+    },
+    {
+      "address": "熊本県熊本市南区田井島1-2-1　ゆめタウンはません 1F",
+      "id": "248",
+      "lat": 32.7717392,
+      "lng": 130.7266426,
+      "name": "ゆめタウンはません店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=248&pgret=2"
+    },
+    {
+      "address": "兵庫県伊丹市藤ノ木1-1-1　イオンモール伊丹 1Ｆ",
+      "id": "534",
+      "lat": 34.7814741,
+      "lng": 135.4240773,
+      "name": "イオンモール伊丹店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=534&pgret=2"
+    },
+    {
+      "address": "山形県酒田市上本町7-50　いろは蔵パーク A館",
+      "id": "595",
+      "lat": 38.9107277,
+      "lng": 139.8398847,
+      "name": "酒田いろは蔵パーク店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=595&pgret=2"
+    },
+    {
+      "address": "愛知県豊川市白鳥町兎足1-16　イオンモール豊川 1F",
+      "id": "563",
+      "lat": 34.825752,
+      "lng": 137.3508794,
+      "name": "イオンモール豊川店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=563&pgret=2"
+    },
+    {
+      "address": "東京都文京区春日1-1-1　ラクーアビル 2F",
+      "id": "566",
+      "lat": 35.7071196,
+      "lng": 139.7531492,
+      "name": "東京ドームシティ ラクーア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=566&pgret=2"
+    },
+    {
+      "address": "神奈川県川崎市中原区小杉町3-472　武蔵小杉東急スクエア 2F",
+      "id": "332",
+      "lat": 35.5759222,
+      "lng": 139.6592747,
+      "name": "武蔵小杉東急スクエア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=332&pgret=2"
+    },
+    {
+      "address": "東京都世田谷区祖師谷3-32-2　渡邊ビル 1F",
+      "id": "148",
+      "lat": 35.6433049,
+      "lng": 139.6085644,
+      "name": "祖師谷駅前店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=148&pgret=2"
+    },
+    {
+      "address": "東京都練馬区石神井町3-19　MSP2ビル 1F",
+      "id": "172",
+      "lat": 35.7428913,
+      "lng": 139.6056487,
+      "name": "石神井公園店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=172&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市北区上津台8-1-1　イオンモール神戸北 1F",
+      "id": "101",
+      "lat": 34.8609293,
+      "lng": 135.194629,
+      "name": "【4/3（金）リニューアルオープン】イオンモール神戸北店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=101&pgret=2"
+    },
+    {
+      "address": "埼玉県富士見市山室1-1313　ららぽーと富士見 1F",
+      "id": "376",
+      "lat": 35.8596307,
+      "lng": 139.5484145,
+      "name": "ららぽーと富士見店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=376&pgret=2"
+    },
+    {
+      "address": "兵庫県川西市栄町25-1　アステ川西 1F",
+      "id": "562",
+      "lat": 34.8265458,
+      "lng": 135.4126435,
+      "name": "アステ川西店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=562&pgret=2"
+    },
+    {
+      "address": "京都府京都市下京区烏丸通塩小路下ル東塩小路町901　京都駅ビル B2F",
+      "id": "493",
+      "lat": 34.9860358,
+      "lng": 135.7589981,
+      "name": "京都ポルタ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=493&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市港北区綱島東1-9-9　SHINSUI 2F",
+      "id": "579",
+      "lat": 35.5361218,
+      "lng": 139.6358234,
+      "name": "新綱島SHINSUI店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=579&pgret=2"
+    },
+    {
+      "address": "東京都町田市根岸2-18-1　アメリア町田根岸 1F",
+      "id": "233",
+      "lat": 35.5763307,
+      "lng": 139.4107878,
+      "name": "アメリア町田根岸店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=233&pgret=2"
+    },
+    {
+      "address": "千葉県印西市中央北3-2　イオンモール千葉ニュータウン 1F",
+      "id": "086",
+      "lat": 35.8022113,
+      "lng": 140.1120953,
+      "name": "千葉ニュータウン店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=086&pgret=2"
+    },
+    {
+      "address": "岐阜県大垣市外野2-100　イオンモール大垣 1F",
+      "id": "117",
+      "lat": 35.33681869999999,
+      "lng": 136.6137503,
+      "name": "大垣店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=117&pgret=2"
+    },
+    {
+      "address": "埼玉県越谷市南越谷1-11-4　新越谷ヴァリエ 1F",
+      "id": "009",
+      "lat": 35.8755201,
+      "lng": 139.7897989,
+      "name": "新越谷ヴァリエ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=009&pgret=2"
+    },
+    {
+      "address": "静岡県静岡市葵区柚木1026　MARK IS 静岡 1F",
+      "id": "333",
+      "lat": 34.9843222,
+      "lng": 138.4094182,
+      "name": "マークイズ静岡店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=333&pgret=2"
+    },
+    {
+      "address": "長野県上田市天神3-5-1　アリオ上田 1F",
+      "id": "235",
+      "lat": 36.3992613,
+      "lng": 138.2445769,
+      "name": "アリオ上田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=235&pgret=2"
+    },
+    {
+      "address": "愛知県江南市松竹町上野205番地　ヴィアモール江南西 1F",
+      "id": "236",
+      "lat": 35.343146,
+      "lng": 136.8551641,
+      "name": "江南西店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=236&pgret=2"
+    },
+    {
+      "address": "愛知県海部郡蟹江町桜1-212　ヨシヅヤJR蟹江駅前 1F",
+      "id": "335",
+      "lat": 35.1435756,
+      "lng": 136.7969708,
+      "name": "ヨシヅヤJR蟹江駅前店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=335&pgret=2"
+    },
+    {
+      "address": "福岡県直方市湯野原2-1-1　イオンモール直方 1F",
+      "id": "069",
+      "lat": 33.7686854,
+      "lng": 130.7498554,
+      "name": "イオンモール直方店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=069&pgret=2"
+    },
+    {
+      "address": "兵庫県明石市東仲ノ町6-1　アスピア明石 1F",
+      "id": "565",
+      "lat": 34.6480508,
+      "lng": 134.995407,
+      "name": "アスピア明石店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=565&pgret=2"
+    },
+    {
+      "address": "宮城県名取市杜せきのした5-3-1　イオンモール名取 1F",
+      "id": "489",
+      "lat": 38.163927,
+      "lng": 140.8960151,
+      "name": "イオンモール名取店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=489&pgret=2"
+    },
+    {
+      "address": "北海道釧路郡釧路町桂木1-1-7　イオン釧路1F",
+      "id": "477",
+      "lat": 43.0090376,
+      "lng": 144.4046059,
+      "name": "イオン釧路店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=477&pgret=2"
+    },
+    {
+      "address": "徳島県徳島市南末広町4-1　イオンモール徳島 1F",
+      "id": "432",
+      "lat": 34.0624891,
+      "lng": 134.5733045,
+      "name": "イオンモール徳島店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=432&pgret=2"
+    },
+    {
+      "address": "広島県広島市西区扇2-1-45　ＬＥＣＴ 1Ｆ",
+      "id": "433",
+      "lat": 34.3728775,
+      "lng": 132.4067253,
+      "name": "広島ＬＥＣＴ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=433&pgret=2"
+    },
+    {
+      "address": "東京都調布市小島町1-38-1　調布パルコ B1F",
+      "id": "415",
+      "lat": 35.6528142,
+      "lng": 139.5436003,
+      "name": "調布パルコ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=415&pgret=2"
+    },
+    {
+      "address": "千葉県柏市大島田1-6-1　セブンパーク アリオ柏 1F",
+      "id": "401",
+      "lat": 35.8334485,
+      "lng": 140.012913,
+      "name": "セブンパーク アリオ柏店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=401&pgret=2"
+    },
+    {
+      "address": "東京都八王子市旭町1-12　八王子オーパ 2F",
+      "id": "480",
+      "lat": 35.6550919,
+      "lng": 139.3380743,
+      "name": "八王子オーパ店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=480&pgret=2"
+    },
+    {
+      "address": "島根県松江市東朝日町151　イオン松江SC 1F",
+      "id": "516",
+      "lat": 35.4636846,
+      "lng": 133.0693755,
+      "name": "イオン松江SC店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=516&pgret=2"
+    },
+    {
+      "address": "奈良県橿原市曲川町7-20-1 イオンモール橿原 1F",
+      "id": "164",
+      "lat": 34.5060001,
+      "lng": 135.7635119,
+      "name": "イオンモール橿原店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=164&pgret=2"
+    },
+    {
+      "address": "三重県津市久居小野辺町1130-7　イオンタウン津城山 1F",
+      "id": "199",
+      "lat": 34.6794196,
+      "lng": 136.5015947,
+      "name": "イオンタウン津城山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=199&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市金沢区泥亀1-27-1　イオン金沢八景店 1F",
+      "id": "337",
+      "lat": 35.3338243,
+      "lng": 139.6224457,
+      "name": "イオン金沢八景店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=337&pgret=2"
+    },
+    {
+      "address": "千葉県千葉市中央区川崎町52番7　アリオ蘇我 1F",
+      "id": "247",
+      "lat": 35.588237,
+      "lng": 140.122471,
+      "name": "アリオ蘇我店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=247&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市青葉区青葉台2-1-1　青葉台東急スクエア South-1本館 2F",
+      "id": "211",
+      "lat": 35.5420909,
+      "lng": 139.5159423,
+      "name": "青葉台東急スクエア店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=211&pgret=2"
+    },
+    {
+      "address": "福岡県大牟田市岬町3番4　イオンモール大牟田 1F",
+      "id": "226",
+      "lat": 33.0305976,
+      "lng": 130.4275394,
+      "name": "イオンモール大牟田店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=226&pgret=2"
+    },
+    {
+      "address": "東京都西東京市東町3-14-33　Emio保谷",
+      "id": "019",
+      "lat": 35.7482353,
+      "lng": 139.5673884,
+      "name": "保谷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=019&pgret=2"
+    },
+    {
+      "address": "愛知県名古屋市中区金山1-17-18　ループ金山 B2F",
+      "id": "065",
+      "lat": 35.1434406,
+      "lng": 136.9014512,
+      "name": "ループ金山店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=065&pgret=2"
+    },
+    {
+      "address": "神奈川県平塚市宝町1-1　ラスカ平塚 3F",
+      "id": "491",
+      "lat": 35.3282669,
+      "lng": 139.3505859,
+      "name": "ラスカ平塚店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=491&pgret=2"
+    },
+    {
+      "address": "神奈川県横浜市港北区日吉2-1-1　日吉東急アベニュー本館 2F",
+      "id": "403",
+      "lat": 35.55406869999999,
+      "lng": 139.6471071,
+      "name": "日吉東急アベニュー店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=403&pgret=2"
+    },
+    {
+      "address": "東京都江東区亀戸6-31-6　カメイドクロック B1F",
+      "id": "547",
+      "lat": 35.6959716,
+      "lng": 139.8292575,
+      "name": "カメイドクロック店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=547&pgret=2"
+    },
+    {
+      "address": "愛媛県伊予郡松前町筒井850番　エミフルMASAKI 1F",
+      "id": "150",
+      "lat": 33.7897159,
+      "lng": 132.7160747,
+      "name": "松前店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=150&pgret=2"
+    },
+    {
+      "address": "東京都杉並区阿佐谷南3-58-1 　ビーンズ阿佐ヶ谷 2F",
+      "id": "282",
+      "lat": 35.7048931,
+      "lng": 139.6353021,
+      "name": "ビーンズ阿佐ヶ谷店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=282&pgret=2"
+    },
+    {
+      "address": "兵庫県神戸市中央区東川崎町1-7-2　神戸ハーバーランド umie 2F",
+      "id": "221",
+      "lat": 34.680067,
+      "lng": 135.183254,
+      "name": "神戸ハーバーランド店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=221&pgret=2"
+    },
+    {
+      "address": "沖縄県中頭郡北中城村字ライカム1番地　イオンモール沖縄ライカム 2F",
+      "id": "379",
+      "lat": 26.3137504,
+      "lng": 127.7966025,
+      "name": "イオンモール沖縄ライカム店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=379&pgret=2"
+    },
+    {
+      "address": "山梨県甲斐市志田字柿木645-1　ラザウォーク甲斐双葉内 1F",
+      "id": "171",
+      "lat": 35.6845621,
+      "lng": 138.484054,
+      "name": "甲斐双葉店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=171&pgret=2"
+    },
+    {
+      "address": "静岡県浜松市中央区志都呂2-37-1　イオンモール浜松志都呂 1F",
+      "id": "055",
+      "lat": 34.69686780000001,
+      "lng": 137.6512339,
+      "name": "イオンモール浜松志都呂店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=055&pgret=2"
+    },
+    {
+      "address": "広島県福山市神辺町大字新道上字2-10-26　フジグラン神辺 1F",
+      "id": "070",
+      "lat": 34.5437908,
+      "lng": 133.3578252,
+      "name": "フジグラン神辺店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=070&pgret=2"
+    },
+    {
+      "address": "大阪府門真市松生町1-11　ららぽーと門真 1F",
+      "id": "564",
+      "lat": 34.7313825,
+      "lng": 135.5841642,
+      "name": "ららぽーと門真店",
+      "sales": [],
+      "services": ["酒類取扱"],
+      "url": "https://map.kaldi.co.jp/kaldi/detailMap?account=kaldi&accmd=0&bid=564&pgret=2"
+    }
+  ],
+  "updatedAt": "2026-03-09T05:27:14.221Z"
+}
