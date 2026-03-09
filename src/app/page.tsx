@@ -1,11 +1,16 @@
+import type { StoresData } from "@/features/map/types";
 import { Suspense } from "react";
-import storesData from "@/data/stores.json";
 import { MapPage } from "@/features/map";
+import { getStoresData } from "@/lib/blob";
 
-export default function Home() {
+const EMPTY_DATA: StoresData = { updatedAt: "", stores: [] };
+
+export default async function Home() {
+  const data = (await getStoresData()) ?? EMPTY_DATA;
+
   return (
     <Suspense>
-      <MapPage data={storesData} />
+      <MapPage data={data} />
     </Suspense>
   );
 }
