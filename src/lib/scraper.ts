@@ -43,7 +43,7 @@ function parseServiceIcons(
   return services;
 }
 
-export async function fetchStores(): Promise<RawStore[]> {
+async function fetchStores(): Promise<RawStore[]> {
   const url = `${BASE_URL}?template=Ctrl/DispListArticle_g12&pageLimit=10000&pageSize=1000&account=kaldi&accmd=0&searchType=True&pg=1`;
   const res = await fetch(url);
   const html = await res.text();
@@ -79,7 +79,7 @@ export async function fetchStores(): Promise<RawStore[]> {
   return stores;
 }
 
-export async function fetchSales(): Promise<RawSale[]> {
+async function fetchSales(): Promise<RawSale[]> {
   const now = new Date().toISOString().slice(0, 19);
   const url = `${BASE_URL}?account=kaldi&accmd=1&ftop=1&kkw001=${encodeURIComponent(now)}`;
   const res = await fetch(url);

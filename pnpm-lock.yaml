@@ -20,6 +20,9 @@ importers:
       '@vis.gl/react-google-maps':
         specifier: 1.7.1
         version: 1.7.1(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      cheerio:
+        specifier: 1.2.0
+        version: 1.2.0
       hono:
         specifier: 4.12.5
         version: 4.12.5
@@ -102,9 +105,6 @@ importers:
       babel-plugin-react-compiler:
         specifier: 1.0.0
         version: 1.0.0
-      cheerio:
-        specifier: 1.2.0
-        version: 1.2.0
       eslint:
         specifier: 10.0.2
         version: 10.0.2(jiti@2.6.1)
