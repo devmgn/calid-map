@@ -12,7 +12,6 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Tailwind CSS v4** with @tailwindcss/postcss
 - **TanStack Query** with queryOptions helper
 - **Zod v4** for runtime validation
-- **Hono** for proxy middleware
 - **nuqs** for URL state management (NuqsAdapter in RootProvider)
 - **OxC** (Oxlint + Oxfmt) for linting and formatting
   - jsPlugins: @tanstack/eslint-plugin-query, eslint-plugin-import, eslint-plugin-react-hooks
@@ -28,7 +27,7 @@ This file provides guidance to AI coding agents when working with code in this r
 | `src/components/` | Reusable UI components (each in own dir with index.tsx, stories, tests) |
 | `src/providers/`  | Context providers (RootProvider)                                        |
 | `src/hooks/`      | Custom React hooks                                                      |
-| `src/lib/`        | Library code (proxy/, styles/, Hydrator, WebVitalsReporter)             |
+| `src/lib/`        | Library code (styles/, Hydrator, WebVitalsReporter)                     |
 | `src/utils/`      | Pure utility functions                                                  |
 | `src/config/`     | Application configuration                                               |
 | `src/features/`   | Feature modules (domain-organized)                                      |
@@ -44,7 +43,6 @@ This file provides guidance to AI coding agents when working with code in this r
 - **Named exports only** for components
 - **TanStack Query** for server state, **no global client state**
 - **Zod schemas** for runtime validation (env vars)
-- **Proxy middleware** in `src/proxy.ts` (not `middleware.ts`)
 
 ### MCP Tool Usage
 

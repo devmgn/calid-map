@@ -41,13 +41,6 @@ pnpm storybook        # Start Storybook development server
 pnpm build-storybook  # Build static Storybook
 ```
 
-## API Generation
-
-```bash
-pnpm generate-api     # Generate OpenAPI client
-pnpm generate-api:clean # Clean and regenerate OpenAPI client
-```
-
 ## Analysis
 
 ```bash
