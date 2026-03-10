@@ -6,6 +6,7 @@ import {
   AdvancedMarker,
   InfoWindow,
   Map,
+  useAdvancedMarkerRef,
   useMap,
 } from "@vis.gl/react-google-maps";
 import { useCallback, useEffect, useState } from "react";
@@ -19,35 +20,58 @@ const JAPAN_CENTER = { lat: 36.5, lng: 137.5 };
 const DEFAULT_ZOOM = 14;
 const FALLBACK_ZOOM = 11;
 
-type SaleStatus = "active" | "upcoming" | "none";
+type SaleCategory = "open" | "kansha";
 
-function getSaleStatus(sales: Sale[]): SaleStatus {
+type MarkerColor =
+  | { category: SaleCategory; active: true }
+  | { category: SaleCategory; active: false }
+  | { category: "none" };
+
+function getSaleCategory(type: string): SaleCategory {
+  return type.includes("オープン") ? "open" : "kansha";
+}
+
+function getMarkerColor(sales: Sale[]): MarkerColor {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  let hasUpcoming = false;
+  let bestUpcoming: SaleCategory | null = null;
 
   for (const sale of sales) {
     const start = new Date(sale.startDate);
     const end = new Date(sale.endDate);
     end.setHours(23, 59, 59, 999);
+    const category = getSaleCategory(sale.type);
 
     if (start <= today && today <= end) {
-      return "active";
+      return { category, active: true };
     }
-    if (start > today) {
-      hasUpcoming = true;
+    if (start > today && !bestUpcoming) {
+      bestUpcoming = category;
     }
   }
 
-  return hasUpcoming ? "upcoming" : "none";
+  if (bestUpcoming) {
+    return { category: bestUpcoming, active: false };
+  }
+  return { category: "none" };
 }
 
-const MARKER_COLORS: Record<SaleStatus, string> = {
-  active: "#dc2626",
-  upcoming: "#f59e0b",
-  none: "#6b7280",
+const MARKER_COLORS: Record<string, string> = {
+  "kansha-active": "#dc2626", // 赤: 通常セール開催中
+  "kansha-upcoming": "#fca5a5", // 薄赤: 通常セール予定
+  "open-active": "#2563eb", // 青: オープンセール開催中
+  "open-upcoming": "#93c5fd", // 薄青: オープンセール予定
+  none: "#9ca3af", // グレー: セールなし
 };
+
+function resolveMarkerColor(color: MarkerColor): string {
+  if (color.category === "none") {
+    return MARKER_COLORS.none;
+  }
+  const key = `${color.category}-${color.active ? "active" : "upcoming"}`;
+  return MARKER_COLORS[key];
+}
 
 function StoreMarker({
   store,
@@ -58,11 +82,13 @@ function StoreMarker({
   isSelected: boolean;
   onSelect: (store: Store | null) => void;
 }) {
-  const saleStatus = getSaleStatus(store.sales);
+  const markerColor = getMarkerColor(store.sales);
+  const [markerRef, marker] = useAdvancedMarkerRef();
 
   return (
     <>
       <AdvancedMarker
+        ref={markerRef}
         position={{ lat: store.lat, lng: store.lng }}
         onClick={() => {
           onSelect(store);
@@ -73,7 +99,7 @@ function StoreMarker({
             width: 24,
             height: 24,
             borderRadius: "50%",
-            background: MARKER_COLORS[saleStatus],
+            background: resolveMarkerColor(markerColor),
             border: "2px solid white",
             boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
           }}
@@ -81,7 +107,8 @@ function StoreMarker({
       </AdvancedMarker>
       {isSelected && (
         <InfoWindow
-          position={{ lat: store.lat, lng: store.lng }}
+          anchor={marker}
+          pixelOffset={[0, 12]}
           onCloseClick={() => {
             onSelect(null);
           }}
@@ -202,13 +229,59 @@ function MyLocationButton({
   );
 }
 
-function StoreMap({ stores }: StoreMapProps) {
+function MapContent({
+  stores,
+  currentPosition,
+}: {
+  stores: Store[];
+  currentPosition: { lat: number; lng: number } | null;
+}) {
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
-  const { position: currentPosition, resolved } = useCurrentPosition();
+  const map = useMap();
 
-  const handleSelect = useCallback((store: Store | null) => {
-    setSelectedStore(store);
-  }, []);
+  const handleSelect = useCallback(
+    (store: Store | null) => {
+      setSelectedStore(store);
+      if (store && map) {
+        map.panTo({ lat: store.lat, lng: store.lng });
+      }
+    },
+    [map],
+  );
+
+  return (
+    <>
+      {currentPosition && (
+        <>
+          <AdvancedMarker position={currentPosition}>
+            <div
+              style={{
+                width: 16,
+                height: 16,
+                borderRadius: "50%",
+                background: "#4285F4",
+                border: "3px solid white",
+                boxShadow: "0 0 6px rgba(66,133,244,0.6)",
+              }}
+            />
+          </AdvancedMarker>
+          <MyLocationButton position={currentPosition} />
+        </>
+      )}
+      {stores.map((store) => (
+        <StoreMarker
+          key={store.id}
+          store={store}
+          isSelected={selectedStore?.id === store.id}
+          onSelect={handleSelect}
+        />
+      ))}
+    </>
+  );
+}
+
+function StoreMap({ stores }: StoreMapProps) {
+  const { position: currentPosition, resolved } = useCurrentPosition();
 
   if (!resolved) {
     return null;
@@ -227,31 +300,7 @@ function StoreMap({ stores }: StoreMapProps) {
         gestureHandling="greedy"
         disableDefaultUI
       >
-        {currentPosition && (
-          <>
-            <AdvancedMarker position={currentPosition}>
-              <div
-                style={{
-                  width: 16,
-                  height: 16,
-                  borderRadius: "50%",
-                  background: "#4285F4",
-                  border: "3px solid white",
-                  boxShadow: "0 0 6px rgba(66,133,244,0.6)",
-                }}
-              />
-            </AdvancedMarker>
-            <MyLocationButton position={currentPosition} />
-          </>
-        )}
-        {stores.map((store) => (
-          <StoreMarker
-            key={store.id}
-            store={store}
-            isSelected={selectedStore?.id === store.id}
-            onSelect={handleSelect}
-          />
-        ))}
+        <MapContent stores={stores} currentPosition={currentPosition} />
       </Map>
     </APIProvider>
   );
