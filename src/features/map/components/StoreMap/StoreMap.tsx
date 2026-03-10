@@ -6,6 +6,7 @@ import {
   AdvancedMarker,
   InfoWindow,
   Map,
+  useMap,
 } from "@vis.gl/react-google-maps";
 import { useCallback, useEffect, useState } from "react";
 import { ENV } from "@/config/env";
@@ -15,8 +16,8 @@ interface StoreMapProps {
 }
 
 const JAPAN_CENTER = { lat: 36.5, lng: 137.5 };
-const DEFAULT_ZOOM = 11;
-const FALLBACK_ZOOM = 8;
+const DEFAULT_ZOOM = 14;
+const FALLBACK_ZOOM = 11;
 
 type SaleStatus = "active" | "upcoming" | "none";
 
@@ -150,6 +151,57 @@ function useCurrentPosition() {
   return { position, resolved };
 }
 
+function MyLocationButton({
+  position,
+}: {
+  position: { lat: number; lng: number };
+}) {
+  const map = useMap();
+
+  const handleClick = useCallback(() => {
+    map?.panTo(position);
+    map?.setZoom(DEFAULT_ZOOM);
+  }, [map, position]);
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      aria-label="現在位置に戻る"
+      style={{
+        position: "absolute",
+        bottom: 24,
+        right: 12,
+        width: 40,
+        height: 40,
+        borderRadius: "50%",
+        background: "white",
+        border: "none",
+        boxShadow: "0 1px 4px rgba(0,0,0,0.3)",
+        cursor: "pointer",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        zIndex: 1,
+      }}
+    >
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#4285F4"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <circle cx="12" cy="12" r="3" fill="#4285F4" />
+        <path d="M12 2v4M12 18v4M2 12h4M18 12h4" />
+      </svg>
+    </button>
+  );
+}
+
 function StoreMap({ stores }: StoreMapProps) {
   const [selectedStore, setSelectedStore] = useState<Store | null>(null);
   const { position: currentPosition, resolved } = useCurrentPosition();
@@ -173,20 +225,24 @@ function StoreMap({ stores }: StoreMapProps) {
         mapId="kaldi-store-map"
         style={{ width: "100%", height: "100%" }}
         gestureHandling="greedy"
+        disableDefaultUI
       >
         {currentPosition && (
-          <AdvancedMarker position={currentPosition}>
-            <div
-              style={{
-                width: 16,
-                height: 16,
-                borderRadius: "50%",
-                background: "#4285F4",
-                border: "3px solid white",
-                boxShadow: "0 0 6px rgba(66,133,244,0.6)",
-              }}
-            />
-          </AdvancedMarker>
+          <>
+            <AdvancedMarker position={currentPosition}>
+              <div
+                style={{
+                  width: 16,
+                  height: 16,
+                  borderRadius: "50%",
+                  background: "#4285F4",
+                  border: "3px solid white",
+                  boxShadow: "0 0 6px rgba(66,133,244,0.6)",
+                }}
+              />
+            </AdvancedMarker>
+            <MyLocationButton position={currentPosition} />
+          </>
         )}
         {stores.map((store) => (
           <StoreMarker
