@@ -1,5 +1,9 @@
 import type { NextRequest } from "next/server";
-import { getStoresData, putStoresData } from "@/lib/blob";
+import {
+  getStoreCoordsCache,
+  logScrape,
+  upsertStoresAndSales,
+} from "@/db/queries/stores";
 import { buildStoresData } from "@/lib/scraper";
 
 export async function GET(request: NextRequest) {
@@ -22,22 +26,14 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    // Load previous data for coordinate cache
-    const cachedCoords = new Map<string, { lat: number; lng: number }>();
-    const previous = await getStoresData();
-    if (previous) {
-      for (const s of previous.stores) {
-        cachedCoords.set(s.id, { lat: s.lat, lng: s.lng });
-      }
-    }
-
+    const cachedCoords = await getStoreCoordsCache();
     const data = await buildStoresData(cachedCoords, apiKey);
-    const url = await putStoresData(data);
+    await upsertStoresAndSales(data);
+    await logScrape(data.stores.length);
 
     return Response.json({
       success: true,
       storeCount: data.stores.length,
-      url,
     });
   } catch (error) {
     console.error("Scrape failed:", error);

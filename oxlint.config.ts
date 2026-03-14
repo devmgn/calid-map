@@ -493,6 +493,7 @@ export default defineConfig({
         "src/**/unauthorized.tsx",
         "vitest.config.ts",
         "vitest.globalSetup.ts",
+        "drizzle.config.ts",
       ],
       rules: {
         "import/no-default-export": "off",

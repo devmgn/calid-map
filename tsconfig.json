@@ -29,6 +29,7 @@
     ".next/types/**/*.ts",
     ".storybook/**/*.ts",
     ".storybook/**/*.tsx",
+    "drizzle.config.ts",
     "next-env.d.ts",
     "next.config.ts",
     "oxlint.config.ts",
