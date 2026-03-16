@@ -1,12 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import { Toaster } from "sonner";
-import { ENV } from "../config/env";
 import { RootProvider } from "../providers/RootProvider";
 import "../lib/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: ENV.APP_NAME,
-  description: ENV.DEFAULT_DESCRIPTION,
+  title: "カルディ・マップ",
+  description:
+    "カルディコーヒーファームの店舗情報とセール情報を地図上で確認できるサイトです",
   icons: ["images/favicon.ico"],
   robots: { index: false, follow: false },
 };

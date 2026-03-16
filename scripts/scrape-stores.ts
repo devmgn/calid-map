@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { parseArgs } from "node:util";
 
 const { loadEnvConfig } = await import("@next/env");
 loadEnvConfig(resolve(import.meta.dirname, ".."));
@@ -7,42 +8,53 @@ loadEnvConfig(resolve(import.meta.dirname, ".."));
 const DATA_DIR = resolve(import.meta.dirname, "../src/data");
 const OUTPUT_PATH = resolve(DATA_DIR, "stores.json");
 
-async function main() {
-  const apiKey = process.env.GOOGLE_GEOCODING_API_KEY;
-  if (!apiKey) {
-    throw new Error("GOOGLE_GEOCODING_API_KEY is required");
-  }
+const { values } = parseArgs({
+  options: { "no-cache": { type: "boolean", default: false } },
+});
 
-  const { buildStoresData } = await import("../src/lib/scraper");
-
-  // Load coordinate cache from DB if available, fallback to local JSON
-  let cachedCoords = new Map<string, { lat: number; lng: number }>();
+async function loadCoordsCache(): Promise<
+  Map<string, { lat: number; lng: number }>
+> {
   const hasDbConfig =
     process.env.DATABASE_URL ?? process.env.DATABASE_URL_POOLED;
 
   if (hasDbConfig) {
     try {
       const { getStoreCoordsCache } = await import("../src/db/queries/stores");
-      cachedCoords = await getStoreCoordsCache();
-      console.warn(
-        `Loaded ${cachedCoords.size} cached coordinates from database`,
-      );
+      const coords = await getStoreCoordsCache();
+      console.warn(`Loaded ${coords.size} cached coordinates from database`);
+      return coords;
     } catch {
       console.warn("Failed to load coordinates from DB, falling back to JSON");
     }
   }
 
-  if (cachedCoords.size === 0 && existsSync(OUTPUT_PATH)) {
+  if (existsSync(OUTPUT_PATH)) {
     const existing = JSON.parse(readFileSync(OUTPUT_PATH, "utf8"));
+    const coords = new Map<string, { lat: number; lng: number }>();
     for (const s of existing.stores) {
-      cachedCoords.set(s.id, { lat: s.lat, lng: s.lng });
+      coords.set(s.id, { lat: s.lat, lng: s.lng });
     }
-    console.warn(
-      `Loaded ${cachedCoords.size} cached coordinates from local JSON`,
-    );
+    console.warn(`Loaded ${coords.size} cached coordinates from local JSON`);
+    return coords;
   }
 
-  const output = await buildStoresData(cachedCoords, apiKey);
+  return new Map();
+}
+
+async function main() {
+  const { buildStoresData } = await import("../src/lib/scraper");
+
+  const skipCache = values["no-cache"];
+  const cachedCoords = skipCache
+    ? new Map<string, { lat: number; lng: number }>()
+    : await loadCoordsCache();
+
+  if (skipCache) {
+    console.warn("Cache skipped (--no-cache)");
+  }
+
+  const output = await buildStoresData(cachedCoords);
 
   // Save local JSON for development
   if (!existsSync(DATA_DIR)) {
@@ -52,12 +64,15 @@ async function main() {
   console.warn(`Saved ${output.stores.length} stores to ${OUTPUT_PATH}`);
 
   // Write to database if configured
-  if (hasDbConfig) {
+  if (process.env.DATABASE_URL ?? process.env.DATABASE_URL_POOLED) {
     const { logScrape, upsertStoresAndSales } =
       await import("../src/db/queries/stores");
     await upsertStoresAndSales(output);
     await logScrape(output.stores.length);
     console.warn(`Upserted ${output.stores.length} stores to database`);
+
+    const { closeDb } = await import("../src/db");
+    await closeDb();
   }
 }
 

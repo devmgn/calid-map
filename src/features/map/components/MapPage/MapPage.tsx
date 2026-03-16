@@ -16,7 +16,7 @@ function MapPage({ data }: MapPageProps) {
   return (
     <div className="relative h-dvh w-full">
       <StoreMap stores={filteredStores} />
-      <div className="absolute top-4 left-4 z-10 w-56">
+      <div className="absolute top-4 left-4 z-[1000] w-56">
         <SaleFilter
           saleTypes={saleTypes}
           selectedSales={selectedSales}

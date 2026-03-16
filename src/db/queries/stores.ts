@@ -32,18 +32,19 @@ export async function getStoresWithSales(): Promise<StoresData | null> {
 
   const storeMap = new Map<string, Store>();
   for (const row of rows) {
-    let store = storeMap.get(row.id);
-    if (!store) {
-      store = {
-        id: row.id,
-        name: row.name,
-        address: row.address,
-        lat: row.lat,
-        lng: row.lng,
-        url: row.url,
-        services: row.services,
-        sales: [],
-      };
+    const existing = storeMap.get(row.id);
+    const store = existing ?? {
+      id: row.id,
+      name: row.name,
+      address: row.address,
+      lat: row.lat,
+      lng: row.lng,
+      url: row.url,
+      services: row.services,
+      sales: [],
+    };
+
+    if (!existing) {
       storeMap.set(row.id, store);
     }
 
