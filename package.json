@@ -1,5 +1,5 @@
 {
-  "name": "calid-map",
+  "name": "caldimap",
   "private": true,
   "type": "module",
   "scripts": {
@@ -30,15 +30,17 @@
   "dependencies": {
     "@tanstack/react-query": "5.90.21",
     "@tanstack/react-query-devtools": "5.91.3",
-    "@vis.gl/react-google-maps": "1.7.1",
     "cheerio": "1.2.0",
+    "date-fns": "4.1.0",
     "drizzle-orm": "0.45.1",
+    "leaflet": "1.9.4",
     "next": "16.1.6",
     "nuqs": "2.8.9",
     "postgres": "3.4.8",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-error-boundary": "6.1.1",
+    "react-leaflet": "5.0.0",
     "sonner": "2.0.7",
     "zod": "4.3.6"
   },
@@ -54,7 +56,7 @@
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
     "@testing-library/user-event": "14.6.1",
-    "@types/google.maps": "3.58.1",
+    "@types/leaflet": "1.9.21",
     "@types/node": "24.11.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",

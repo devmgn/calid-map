@@ -17,17 +17,9 @@ export async function GET(request: NextRequest) {
     return new Response("Unauthorized", { status: 401 });
   }
 
-  const apiKey = process.env.GOOGLE_GEOCODING_API_KEY;
-  if (apiKey === undefined || apiKey === "") {
-    return Response.json(
-      { error: "GOOGLE_GEOCODING_API_KEY is not configured" },
-      { status: 500 },
-    );
-  }
-
   try {
     const cachedCoords = await getStoreCoordsCache();
-    const data = await buildStoresData(cachedCoords, apiKey);
+    const data = await buildStoresData(cachedCoords);
     await upsertStoresAndSales(data);
     await logScrape(data.stores.length);
 

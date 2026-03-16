@@ -1,7 +1,7 @@
 import type { Store, StoresData } from "@/features/map/types";
 import type { CheerioAPI } from "cheerio";
 import { load } from "cheerio";
-import { z } from "zod/v4";
+import { z } from "zod";
 
 const BASE_URL = "https://map.kaldi.co.jp/kaldi/articleList";
 
@@ -136,41 +136,82 @@ function parseDateRange(text: string): { startDate: string; endDate: string } {
   };
 }
 
-const geocodeResponseSchema = z.object({
-  status: z.string(),
-  results: z.array(
-    z.object({
-      geometry: z.object({
-        location: z.object({ lat: z.number(), lng: z.number() }),
-      }),
+const gsiGeocodeResponseSchema = z.array(
+  z.object({
+    geometry: z.object({
+      coordinates: z.tuple([z.number(), z.number()]), // [lng, lat]
     }),
-  ),
-});
+  }),
+);
 
-async function geocodeAddress(
+async function fetchGsi(
   address: string,
-  apiKey: string,
 ): Promise<{ lat: number; lng: number } | null> {
-  const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address)}&key=${apiKey}&language=ja`;
+  const url = `https://msearch.gsi.go.jp/address-search/AddressSearch?q=${encodeURIComponent(address)}`;
   const res = await fetch(url);
-  const parsed = geocodeResponseSchema.safeParse(await res.json());
+  const parsed = gsiGeocodeResponseSchema.safeParse(await res.json());
 
-  if (!parsed.success) {
-    console.warn(`Geocoding parse failed for: ${address}`);
+  if (!parsed.success || parsed.data.length === 0) {
     return null;
   }
 
-  const { data } = parsed;
-  if (data.status === "OK" && data.results.length > 0) {
-    return data.results[0].geometry.location;
+  const [lng, lat] = parsed.data[0].geometry.coordinates;
+  return { lat, lng };
+}
+
+// 京都の通り名表記（例: 三条通寺町東入）を除去して町名だけにする
+const KYOTO_STREET_PATTERN = /.+[区郡].+[通り].*[入ル]/;
+
+function simplifyAddress(address: string): string | null {
+  if (!KYOTO_STREET_PATTERN.test(address)) {
+    return null;
   }
-  console.warn(`Geocoding failed for: ${address} (${data.status})`);
+  // 「〇〇区」の後ろから「入」「ル」までを除去し、残りの町名を直結
+  return address.replace(/([区郡])[^区郡]+?[入ル]/, "$1");
+}
+
+async function geocodeAddress(
+  address: string,
+): Promise<{ lat: number; lng: number } | null> {
+  const result = await fetchGsi(address);
+  if (result) {
+    return result;
+  }
+
+  const simplified = simplifyAddress(address);
+  if (simplified !== null) {
+    console.warn(`Retrying with simplified address: ${simplified}`);
+    const retry = await fetchGsi(simplified);
+    if (retry) {
+      return retry;
+    }
+  }
+
+  console.warn(`Geocoding failed for: ${address}`);
   return null;
+}
+
+async function resolveAllCoords(
+  rawStores: RawStore[],
+  cachedCoords: Map<string, { lat: number; lng: number }>,
+): Promise<Map<string, { lat: number; lng: number }>> {
+  const result = new Map(cachedCoords);
+
+  const uncached = rawStores.filter((raw) => !cachedCoords.has(raw.id));
+
+  await uncached.reduce(async (prev, raw) => {
+    await prev;
+    const coords = await geocodeAddress(raw.address);
+    if (coords) {
+      result.set(raw.id, coords);
+    }
+  }, Promise.resolve());
+
+  return result;
 }
 
 export async function buildStoresData(
   cachedCoords: Map<string, { lat: number; lng: number }>,
-  apiKey: string,
 ): Promise<StoresData> {
   const [rawStores, sales] = await Promise.all([fetchStores(), fetchSales()]);
 
@@ -182,27 +223,19 @@ export async function buildStoresData(
     salesByStore.set(sale.storeId, list);
   }
 
-  // Geocode and merge
-  const stores: Store[] = [];
-  for (const raw of rawStores) {
-    let coords: { lat: number; lng: number } | null | undefined =
-      cachedCoords.get(raw.id);
+  // Geocode uncached stores sequentially
+  const resolvedCoords = await resolveAllCoords(rawStores, cachedCoords);
+
+  // Merge
+  const stores: Store[] = rawStores.flatMap((raw) => {
+    const coords = resolvedCoords.get(raw.id);
     if (!coords) {
-      // oxlint-disable-next-line no-await-in-loop -- sequential geocoding with rate limit
-      coords = await geocodeAddress(raw.address, apiKey);
-      if (!coords) {
-        continue;
-      }
-      // Rate limit: Google Geocoding API allows 50 req/s
-      // oxlint-disable-next-line no-await-in-loop -- intentional delay between API calls
-      await new Promise((_resolve) => {
-        setTimeout(_resolve, 50);
-      });
+      return [];
     }
 
     const storeSales = salesByStore.get(raw.id) ?? [];
 
-    stores.push({
+    return {
       id: raw.id,
       name: raw.name,
       address: raw.address,
@@ -217,8 +250,8 @@ export async function buildStoresData(
         endDate: s.endDate,
         detail: s.detail,
       })),
-    });
-  }
+    };
+  });
 
   return {
     updatedAt: new Date().toISOString(),
