@@ -16,7 +16,7 @@ export function WebVitalsReporter() {
     console.info(
       // oxlint-disable-next-line typescript/no-unsafe-member-access
       `%c [Web Vitals]: ${metric.name}: ${metric.value} / Rating: ${metric.rating}`,
-      style.toString(),
+      style,
       metric,
     );
   });
