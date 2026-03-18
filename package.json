@@ -71,7 +71,7 @@
     "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-storybook": "10.2.19",
     "jest-extended": "7.0.0",
-    "jsdom": "28.1.0",
+    "jsdom": "29.0.0",
     "knip": "5.86.0",
     "oxfmt": "0.40.0",
     "oxlint": "1.55.0",
