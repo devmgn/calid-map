@@ -22,4 +22,18 @@ describe("runtime", () => {
       expect(isProduction).toBe(false);
     });
   });
+
+  describe("isServer", () => {
+    it("window が undefined のとき、isServer が true となること", async () => {
+      vi.stubGlobal("window", undefined);
+      const { isServer } = await import("./runtime");
+      expect(isServer).toBe(true);
+    });
+
+    it("window が定義されているとき、isServer が false となること", async () => {
+      vi.stubGlobal("window", {});
+      const { isServer } = await import("./runtime");
+      expect(isServer).toBe(false);
+    });
+  });
 });
