@@ -1,7 +1,7 @@
 import type { StorybookConfig } from "@storybook/nextjs-vite";
 
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-a11y",
     "@storybook/addon-docs",
@@ -23,8 +23,8 @@ const config: StorybookConfig = {
   core: {
     disableTelemetry: true,
   },
-  features: {
-    experimentalComponentsManifest: true,
+  typescript: {
+    reactDocgen: "react-docgen-typescript",
   },
   staticDirs: ["../public"],
 };
