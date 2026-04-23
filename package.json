@@ -73,7 +73,7 @@
     "happy-dom": "20.8.7",
     "jest-extended": "7.0.0",
     "knip": "6.0.4",
-    "oxfmt": "0.42.0",
+    "oxfmt": "0.46.0",
     "oxlint": "1.57.0",
     "oxlint-tsgolint": "0.17.3",
     "playwright": "1.58.2",
