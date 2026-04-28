@@ -28,8 +28,8 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@tanstack/react-query": "5.95.2",
-    "@tanstack/react-query-devtools": "5.95.2",
+    "@tanstack/react-query": "5.100.5",
+    "@tanstack/react-query-devtools": "5.100.5",
     "cheerio": "1.2.0",
     "date-fns": "4.1.0",
     "drizzle-orm": "0.45.1",
@@ -52,7 +52,7 @@
     "@storybook/addon-vitest": "10.3.3",
     "@storybook/nextjs-vite": "10.3.3",
     "@tailwindcss/postcss": "4.2.2",
-    "@tanstack/eslint-plugin-query": "5.95.2",
+    "@tanstack/eslint-plugin-query": "5.100.5",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
     "@testing-library/user-event": "14.6.1",
